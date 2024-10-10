@@ -1,1 +1,1 @@
-
+import './js/work.js';
