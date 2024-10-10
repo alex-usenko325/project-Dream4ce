@@ -12,3 +12,4 @@ document.addEventListener('DOMContentLoaded', () => {
     scrl.reveal('.work-wrapper', {delay: 200});
 
 });
+
