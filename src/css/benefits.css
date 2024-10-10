@@ -1,0 +1,53 @@
+.benefits-title {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  margin-bottom: 40px;
+  line-height: 1.23077;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.benefits-title span {
+  color: #00b068;
+}
+
+.benefits-list {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.benefits-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.benefits-list-item-icon {
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+  stroke: #00b068;
+  fill: none;
+  background: #bcdfd1;
+  padding: 12px;
+}
+
+.benefits-list-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.benefits-list-item-text {
+  font-weight: 300;
+  font-size: 16px;
+}
