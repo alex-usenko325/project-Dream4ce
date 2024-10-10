@@ -198,7 +198,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 320px;
   max-height: 328px;
   padding: 48px 32px;
   border-radius: 16px;
@@ -266,7 +265,7 @@
       url(/img/work/decor-bg-tab@2x.png) 2x
     );
     top: -125px;
-    right: 95px;
+    right: 30px;
     width: 336px;
     height: 260px;
     background-repeat: no-repeat;
@@ -300,8 +299,7 @@
   .work-modal {
     padding: 64px;
     width: 492px;
-    max-width: 360px;
-    max-height: 280px;
+    max-height: 288px;
   }
 
   .work-modal-close {
