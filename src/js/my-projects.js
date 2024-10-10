@@ -1,5 +1,5 @@
-import managerFinanceImg from '../img/my-projects/manager-finance.jpg';
-import managerFinanceImg2x from '../img/my-projects/maneger-finance-x2-min.jpg';
+import managerFinanceImg from '/img/my-projects/manager-finance.jpg';
+import managerFinanceImg2x from '/img/my-projects/maneger-finance-x2-min.jpg';
 
 import vegetablesImg from '../img/my-projects/vegetables.jpg';
 import vegetablesImg2x from '../img/my-projects/vegetables-x2-min.jpg';
@@ -36,7 +36,7 @@ const projects = [
         image: managerFinanceImg,
         image2x: managerFinanceImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Wallet Webservice Project",
         svg: arrowIcon
     },
@@ -45,7 +45,7 @@ const projects = [
         image: vegetablesImg,
         image2x: vegetablesImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Green harvest",
         svg: arrowIcon
     },
@@ -54,7 +54,7 @@ const projects = [
         image: discoverImg,
         image2x: discoverImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "hhttps://github.com/alex-usenko325/project-Dream4ce",
         alt: "English Exellence",
         svg: arrowIcon
     },
@@ -63,7 +63,7 @@ const projects = [
         image: transformYourImg,
         image2x: transformYourImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Transform your",
         svg: arrowIcon
     },
@@ -72,7 +72,7 @@ const projects = [
         image: traditionsUkraineImg,
         image2x: traditionsUkraineImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Ukraine traditions",
         svg: arrowIcon
     },
@@ -81,7 +81,7 @@ const projects = [
         image: getBodyImg,
         image2x: getBodyImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Stay Healthy",
         svg: arrowIcon
     },
@@ -90,7 +90,7 @@ const projects = [
         image: miminoImg,
         image2x: miminoImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Mimino",
         svg: arrowIcon
     },
@@ -99,7 +99,7 @@ const projects = [
         image: brandImg,
         image2x: brandImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Transformation with a Touch of the Brush",
         svg: arrowIcon
     },
@@ -108,7 +108,7 @@ const projects = [
         image: freshImg,
         image2x: freshImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Fresh harvest box",
         svg: arrowIcon
     },
@@ -117,7 +117,7 @@ const projects = [
         image: turnYourImg,
         image2x: turnYourImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "https://github.com/kononova1986/project-15",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "Transform your business",
         svg: arrowIcon
     }
