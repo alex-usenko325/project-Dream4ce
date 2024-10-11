@@ -1,0 +1,135 @@
+.faq-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+.faq-title{
+    margin-bottom: 40px;
+}
+.faq-title-content{
+    font-family: "Impact", sans-serif;
+
+    font-size: 52px;
+    line-height: 1.23077;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #292929;
+}
+.faq-title-span-green {
+    color: #00b068;
+}
+.faq-img{
+    display: none;
+    filter: blur(7.40168571472168px);
+}
+
+.faq-content-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+}
+.faq-content-item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #e4e5e6;
+    padding: 28px 24px;
+}
+.faq-content-item:has(.faq-is-active) {
+    border-radius: 16px;
+    background: #bcdfd1;
+}
+.ac-faq-title{
+    width: 100%;
+}
+.faq-acordeon-wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+}
+.faq-content-item-title{
+    flex-grow: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #292929;
+    
+}
+.faq-item-icon-wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: row;
+    gap: 10px;
+}
+.faq-item-icon{
+    
+    stroke:#292929;
+    fill: none;
+} 
+
+.faq-content-item-description{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #292929;
+    margin-top: 24px;
+}
+
+.hidden {
+    overflow: hidden;
+    opacity: 0;
+}
+
+.faq-is-active {
+    transform: rotate(180deg);
+    transition: transform 250ms linear;
+}
+
+@media screen and (min-width: 768px) {
+    .faq-container {
+        gap: 60px;
+    }
+    .faq-title-content{
+        font-size: 108px;
+    }
+    .faq-title {
+        margin-bottom: 0px;
+    }
+    .faq-content-item-title{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .faq-img {
+        display:block;
+    }
+    .faq-container {
+        gap: 98px;
+        flex-direction: row;
+    }
+    .faq-content{
+        margin-top: 276px;
+    }
+    .faq-title {
+        display: flex;
+        flex-direction: column;
+        gap: 240px;
+    }
+    .faq-title-content {
+        font-size: 108px;
+    }
+}
