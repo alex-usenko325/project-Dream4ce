@@ -27,41 +27,18 @@
 .project-item.right {
     transform: translateX(100%);
 }
-.project-item.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-.project-image {
-    border-radius: 16px;
-}
-.project-content {
-    margin-top: 15px;
-}
-.project-name-btn{
-    margin-top: 16px;
-
-}
 .project-tech {
-    font-family: var(--font-family);
+   
 font-weight: 300;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.03em;
-color: var(--black);
+color: #292929;
 }
-.project-name {
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 32px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-transform: uppercase;
-color: var(--black);
+.progect-name{
 padding-bottom: 16px;
 }
 .project-button {
-    text-align: center; 
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
