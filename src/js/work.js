@@ -82,10 +82,7 @@ form.addEventListener("submit", async (event) => {
     }
 
     if (emailInput.value.trim() !== "" && workMessage.value.trim() !== "" && validateEmail()) {
-
-        errorMsg.style.display = "none";
         loader.classList.remove("visually-hidden");
-
         const formObj = {
         email: emailInput.value.trim(),
         comment: workMessage.value.trim(),
@@ -103,6 +100,7 @@ form.addEventListener("submit", async (event) => {
                 errorInput.style.display = "none";
                 successIcon.style.display = "none";
                 form.reset();
+                loader.classList.add("visually-hidden");
         }
 
         catch (error) {
@@ -113,15 +111,10 @@ form.addEventListener("submit", async (event) => {
                 title: "Error",
                 position: "center",
                 timeout: 2000,
-                backgroundColor: 'rgba(255, 0, 0, 0.7)',
                 overlay: true,
-                class: "custom",
                 color: '#f24d4c',
                 image: 'linear-gradient(to right, #f24d4c55, #22242F 30% )',
             });
-        }
-        finally {
-            loader.classList.add("visually-hidden");
         }
     }
 });
