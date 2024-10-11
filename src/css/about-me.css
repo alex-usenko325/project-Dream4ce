@@ -1,0 +1,234 @@
+/* ===================== common slyles =============================== */
+.about-me-title {
+  text-transform: uppercase;
+  font-family: Impact;
+}
+.about-me-item {
+  color: #00b068;
+}
+.about-me-subtitle {
+  text-transform: uppercase;
+}
+.about-me-container {
+  display: flex;
+}
+/* ============================MOBILE STYLES========================================= */
+@media screen and (max-width: 767px) {
+  .about-me {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .about-me-title {
+    font-size: 52px;
+    letter-spacing: 1.8px;
+    line-height: 64px;
+    margin-bottom: 40px;
+  }
+  .about-me-subtitle {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+  .about-me-p {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .about-me-first-p {
+    margin-bottom: 25px;
+  }
+  .about-me-container {
+    flex-direction: column;
+  }
+  .about-me-images-container {
+    order: 1;
+    margin-bottom: 40px;
+  }
+  .about-me-bio-container {
+    order: 2;
+    margin-bottom: 40px;
+  }
+  .about-me-education-container {
+    order: 3;
+    margin-bottom: 40px;
+  }
+  .about-me-role-container {
+    order: 4;
+  }
+  .about-me-education-list-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+  .about-me-role-list-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+  .about-me-education-list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 13%;
+    transform: translateY(-50%);
+
+    width: 4px;
+    height: 4px;
+    background-color: #00b068;
+    border-radius: 1px;
+  }
+
+  .about-me-role-list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 4px;
+    height: 4px;
+    background-color: #00b068;
+    border-radius: 1px;
+  }
+}
+/* ============================/MOBILE STYLES========================================= */
+
+/* ============================TABLET STYLES========================================= */
+@media screen and (min-width: 768px) {
+  .about-me {
+    margin-left: 32px;
+    margin-right: 32px;
+
+    background-image: url('decor-bg-2.png');
+
+    background-repeat: no-repeat;
+    background-size: 336px 252px;
+    background-position: 100% 80%;
+
+  }
+  .about-me-title {
+    font-family: Impact;
+    font-size: 108px;
+    letter-spacing: 1.8px;
+    line-height: 124px;
+    margin-bottom: 25px;
+  }
+  .about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .about-me-images-container,
+  .about-me-education-container {
+    flex-basis: 48%; /* 48% ширини для першої колонки */
+  }
+
+  .about-me-bio-container,
+  .about-me-role-container {
+    flex-basis: 48%; /* 48% ширини для другої колонки */
+    
+  }
+  .about-me-images-container {
+    margin-top: 355px;
+    margin-bottom: 35px;
+  }
+  .about-me-bio-container {
+    order: 1;
+    margin-bottom: 90px;
+  }
+  .about-me-education-container {
+    order: 2;
+    margin-bottom: 40px;
+  }
+  .about-me-role-container {
+    order: 4;
+  }
+  .about-me-education-list-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 16px;
+  }
+  .about-me-role-list-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 16px;
+  }
+  .about-me-education-list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 13%;
+    transform: translateY(-50%);
+
+    width: 4px;
+    height: 4px;
+    background-color: #00b068;
+    border-radius: 1px;
+  }
+
+  .about-me-role-list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+width: 4px;
+    height: 4px;
+    background-color: #00b068;
+    border-radius: 1px;
+  }
+  .about-me-subtitle {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
+  .about-me-p {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+  }
+  .about-me-first-p {
+    margin-bottom: 25px;
+  }
+}
+/* ============================/TABLET STYLES========================================= */
+
+/* ============================DESKTOP STYLE========================================= */
+@media screen and (min-width: 1280px) {
+  .about-me-container {
+    padding-left: 210px;
+  }
+    .about-me {
+    margin-left: 32px;
+    margin-right: 32px;
+
+    background-image: url('decor-bg-2.png');
+
+    background-repeat: no-repeat;
+    background-size: 384px 288px;
+    background-position: 850px 650px;
+
+  }
+  .about-me-images-container {
+    margin-top: 355px;
+    margin-bottom: 37px;
+  }
+    .about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+  }
+  .about-me-images-container,
+  .about-me-education-container {
+    flex-basis: 384px; /* 48% ширини для першої колонки */
+  }
+
+  .about-me-bio-container,
+  .about-me-role-container {
+    flex-basis: 448px; /* 48% ширини для другої колонки */
+  }
+}
+/* ============================/DESKTOP STYLE(1440)========================================= */
