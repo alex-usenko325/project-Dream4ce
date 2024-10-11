@@ -3,7 +3,7 @@
 }
 .projects-title {
     text-align: center;
-    font-family: 'Impact', sans-serif;
+    font-family: 'Inpact', sans-serif;
     font-weight: 400;
     font-size: 52px;
     line-height: 1.2;
@@ -41,7 +41,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    color: var(--black);
+    color: #292929;
     border-radius: 8px;
     padding: 12px 24px;
     min-width: 125px;
@@ -166,4 +166,4 @@ height:18px;
         margin-left: auto;
         margin-right: auto;
     }
-}
+    
