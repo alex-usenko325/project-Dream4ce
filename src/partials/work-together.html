@@ -32,7 +32,7 @@
       </ul>
     </div>
     <div class="work-right">
-      <form class="work-form">
+      <form class="work-form" novalidate>
         <input
           class="work-input"
           type="email"
@@ -40,25 +40,27 @@
           placeholder="Your email*"
           pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
           id="email"
+          required
         />
         <label for="email" class="visually-hidden">Email</label>
-        <svg class="work-success-icon" width="14" height="14">
-          <use href="./img/icons.svg#icon-success"></use>
+        <svg class="work-success-icon" width="16" height="16">
+          <use href="./img/icons.svg#icon-ack"></use>
         </svg>
-        <p class="error-input">Invalid email, try again</p>
+        <p class="error-input js-error">Invalid email, try again</p>
         <textarea
           class="work-message"
           placeholder="Message"
-          name="Message"
-          minlength="10"
+          name="message"
           id="message"
         ></textarea>
         <label for="message" class="visually-hidden">Message</label>
+        <p class="error-input-msg js-error">All fields must be filled</p>
         <button type="submit" class="work-btn">send message</button>
       </form>
       <span class="work-loader visually-hidden"></span>
     </div>
-    <div class="work-backdrop">
+
+    <div class="work-backdrop visually-hidden">
       <div class="work-modal">
         <button class="work-modal-close">
           <svg class="work-icon-close" width="24" height="24">
