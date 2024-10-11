@@ -1,5 +1,5 @@
-import managerFinanceImg from '/img/my-projects/manager-finance.jpg';
-import managerFinanceImg2x from '/img/my-projects/maneger-finance-x2-min.jpg';
+import managerFinanceImg from '../img/my-projects/manager-finance.jpg';
+import managerFinanceImg2x from '../img/my-projects/maneger-finance-x2-min.jpg';
 
 import vegetablesImg from '../img/my-projects/vegetables.jpg';
 import vegetablesImg2x from '../img/my-projects/vegetables-x2-min.jpg';
