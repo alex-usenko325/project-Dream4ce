@@ -3,7 +3,7 @@
 }
 .projects-title {
     text-align: center;
-    font-family: var(-Impact);
+    font-family: 'Impact', sans-serif;
     font-weight: 400;
     font-size: 52px;
     line-height: 1.2;
