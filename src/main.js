@@ -1,2 +1,1 @@
-import './js/my-projects.js';
-
+import '/js/my-projects.js';
