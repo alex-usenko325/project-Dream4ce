@@ -1,32 +1,32 @@
 import managerFinanceImg from '../img/my-projects/manager-finance.png';
-import managerFinanceImg2x from '../img/my-projects/maneger-finance-x2.png';
+import managerFinanceImg2x from '../img/my-projects/maneger-finance-2x.png';
 
 import vegetablesImg from '../img/my-projects/vegetables.png';
-import vegetablesImg2x from '../img/my-projects/vegetables-x2.png';
+import vegetablesImg2x from '../img/my-projects/vegetables-2x.png';
 
 import discoverImg from '../img/my-projects/discover.png';
-import discoverImg2x from '../img/my-projects/discover-x2.png';
+import discoverImg2x from '../img/my-projects/discover-2x.png';
 
 import transformYourImg from '../img/my-projects/transform-your.png';
-import transformYourImg2x from '../img/my-projects/transform-your-x2.png';
+import transformYourImg2x from '../img/my-projects/transform-your-2x.png';
 
 import traditionsUkraineImg from '../img/my-projects/traditions-ukraine.png';
-import traditionsUkraineImg2x from '../img/my-projects/traditions-ukarain-x2.png';
+import traditionsUkraineImg2x from '../img/my-projects/traditions-ukarain-2x.png';
 
 import getBodyImg from '../img/my-projects/get-body.png';
-import getBodyImg2x from '../img/my-projects/get-body-x2.png';
+import getBodyImg2x from '../img/my-projects/get-body-2x.png';
 
 import miminoImg from '../img/my-projects/mimino.png';
-import miminoImg2x from '../img/my-projects/mimino-x2.png';
+import miminoImg2x from '../img/my-projects/mimino-2x.png';
 
 import brandImg from '../img/my-projects/brand.png';
-import brandImg2x from '../img/my-projects/brand-x2.png';
+import brandImg2x from '../img/my-projects/brand-2x.png';
 
 import freshImg from '../img/my-projects/fresh.png';
-import freshImg2x from '../img/my-projects/fresh-x2.png';
+import freshImg2x from '../img/my-projects/fresh-2x.png';
 
 import turnYourImg from '../img/my-projects/turn-your.png';
-import turnYourImg2x from '../img/my-projects/turn-your-x2.png';
+import turnYourImg2x from '../img/my-projects/turn-your-2x.png';
 
 import arrowIcon from '../img/icon.svg#icon-arrow';
 
