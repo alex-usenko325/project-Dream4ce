@@ -3,7 +3,7 @@
 }
 .projects-title {
     text-align: center;
-    font-family: var(--second-family);
+    font-family: var(-Impact);
     font-weight: 400;
     font-size: 52px;
     line-height: 1.2;
@@ -34,34 +34,9 @@
 .project-image {
     border-radius: 16px;
 }
-.project-content {
-    margin-top: 15px;
-}
-.project-name-btn{
-    margin-top: 16px;
 
-}
-.project-tech {
-   
-font-weight: 300;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.03em;
-color: var(--black);
-}
-.project-name {
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 32px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-transform: uppercase;
-color: var(--black);
-padding-bottom: 16px;
-}
 .project-button {
-    text-align: center; 
-    font-family: var(--font-family);
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

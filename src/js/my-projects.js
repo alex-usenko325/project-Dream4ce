@@ -1,4 +1,4 @@
-import managerFinanceImg from '../img/my-projects/manager-finance.png';
+import managerFinanceImg from '../img/my-projects/maneger-finance.png';
 import managerFinanceImg2x from '../img/my-projects/maneger-finance-2x.png';
 
 import vegetablesImg from '../img/my-projects/vegetables.png';
@@ -10,7 +10,7 @@ import discoverImg2x from '../img/my-projects/discover-2x.png';
 import transformYourImg from '../img/my-projects/transform-your.png';
 import transformYourImg2x from '../img/my-projects/transform-your-2x.png';
 
-import traditionsUkraineImg from '../img/my-projects/traditions-ukraine.png';
+import traditionsUkraineImg from '../img/my-projects/traditions-ukarain.png';
 import traditionsUkraineImg2x from '../img/my-projects/traditions-ukarain-2x.png';
 
 import getBodyImg from '../img/my-projects/get-body.png';
@@ -28,7 +28,7 @@ import freshImg2x from '../img/my-projects/fresh-2x.png';
 import turnYourImg from '../img/my-projects/turn-your.png';
 import turnYourImg2x from '../img/my-projects/turn-your-2x.png';
 
-import arrowIcon from '../img/icon.svg#icon-arrow';
+import arrowIcon from '../img/icons.svg#icon-arrow-narrow';
 
 const projects = [
     {
