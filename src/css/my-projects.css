@@ -3,7 +3,7 @@
 }
 .projects-title {
     text-align: center;
-    font-family: var(--Inpact);
+    font-family: var(--second-family);
     font-weight: 400;
     font-size: 52px;
     line-height: 1.2;
@@ -27,7 +27,16 @@
 .project-item.right {
     transform: translateX(100%);
 }
-
+.project-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.project-image {
+    border-radius: 16px;
+}
+.project-content {
+    margin-top: 15px;
+}
 .project-name-btn{
     margin-top: 16px;
 
@@ -38,13 +47,21 @@ font-weight: 300;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.03em;
-color: #292929);
+color: var(--black);
 }
 .project-name {
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 32px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: var(--black);
 padding-bottom: 16px;
 }
 .project-button {
-    
+    text-align: center; 
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
