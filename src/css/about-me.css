@@ -8,7 +8,13 @@
 }
 .about-me-subtitle {
   text-transform: uppercase;
+  margin-bottom: 32px;
 }
+
+.about-me-first-p {
+  margin-bottom: 24px;
+}
+
 .about-me-container {
   display: flex;
 }
@@ -47,22 +53,18 @@
     font-size: 52px;
     letter-spacing: 1.8px;
     line-height: 64px;
-    margin-bottom: 40px;
   }
   .about-me-subtitle {
     font-size: 32px;
     letter-spacing: 0.5px;
     line-height: 40px;
-    margin-bottom: 40px;
   }
   .about-me-p {
     font-size: 16px;
     letter-spacing: 0.2px;
     line-height: 24px;
   }
-  .about-me-first-p {
-    margin-bottom: 25px;
-  }
+
   .about-me-container {
     flex-direction: column;
   }
@@ -80,6 +82,7 @@
   }
   .about-me-role-container {
     order: 4;
+    margin-bottom: 80px;
   }
 }
 /* ============================/MOBILE STYLES========================================= */
@@ -95,11 +98,9 @@
     background-position: 100% 80%;
   }
   .about-me-title {
-    font-family: Impact;
     font-size: 108px;
     letter-spacing: 1.8px;
     line-height: 124px;
-    margin-bottom: 25px;
   }
   .about-me-container {
     display: flex;
@@ -135,15 +136,11 @@
     font-size: 36px;
     letter-spacing: 0.5px;
     line-height: 48px;
-    margin-bottom: 32px;
   }
   .about-me-p {
     font-size: 16px;
     letter-spacing: 0.2px;
     line-height: 24px;
-  }
-  .about-me-first-p {
-    margin-bottom: 25px;
   }
 }
 
@@ -151,6 +148,12 @@
   screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .about-me {
     background-image: url('../img/bagraund/decor-bg2-2x.png');
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .about-me-title {
+    margin-bottom: 40px;
   }
 }
 
