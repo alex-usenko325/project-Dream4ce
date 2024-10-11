@@ -82,9 +82,6 @@ form.addEventListener("submit", async (event) => {
     }
 
     if (emailInput.value.trim() !== "" && workMessage.value.trim() !== "" && validateEmail()) {
-        if (!validateEmail()) {
-            errorInput.style.display = "block";
-        }
 
         errorMsg.style.display = "none";
         loader.classList.remove("visually-hidden");
