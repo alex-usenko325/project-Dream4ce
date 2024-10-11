@@ -1,34 +1,34 @@
-import managerFinanceImg from '../img/my-projects/manager-finance.jpg';
-import managerFinanceImg2x from '../img/my-projects/maneger-finance-x2-min.jpg';
+import managerFinanceImg from '../img/my-projects/manager-finance.png';
+import managerFinanceImg2x from '../img/my-projects/maneger-finance-x2.png';
 
-import vegetablesImg from '../img/my-projects/vegetables.jpg';
-import vegetablesImg2x from '../img/my-projects/vegetables-x2-min.jpg';
+import vegetablesImg from '../img/my-projects/vegetables.png';
+import vegetablesImg2x from '../img/my-projects/vegetables-x2.png';
 
-import discoverImg from '../img/my-projects/discover.jpg';
-import discoverImg2x from '../img/my-projects/discover-x2-min.jpg';
+import discoverImg from '../img/my-projects/discover.png';
+import discoverImg2x from '../img/my-projects/discover-x2.png';
 
-import transformYourImg from '../img/my-projects/transform-your.jpg';
-import transformYourImg2x from '../img/my-projects/transform-your-x2-min.jpg';
+import transformYourImg from '../img/my-projects/transform-your.png';
+import transformYourImg2x from '../img/my-projects/transform-your-x2.png';
 
-import traditionsUkraineImg from '../img/my-projects/traditions-ukraine.jpg';
-import traditionsUkraineImg2x from '../img/my-projects/traditions-ukarain-x2-min.jpg';
+import traditionsUkraineImg from '../img/my-projects/traditions-ukraine.png';
+import traditionsUkraineImg2x from '../img/my-projects/traditions-ukarain-x2.png';
 
-import getBodyImg from '../img/my-projects/get-body.jpg';
-import getBodyImg2x from '../img/my-projects/get-body-x2-min.jpg';
+import getBodyImg from '../img/my-projects/get-body.png';
+import getBodyImg2x from '../img/my-projects/get-body-x2.png';
 
-import miminoImg from '../img/my-projects/mimino.jpg';
-import miminoImg2x from '../img/my-projects/mimino-x2-min.jpg';
+import miminoImg from '../img/my-projects/mimino.png';
+import miminoImg2x from '../img/my-projects/mimino-x2.png';
 
-import brandImg from '../img/my-projects/brand.jpg';
-import brandImg2x from '../img/my-projects/brand-x2-min.jpg';
+import brandImg from '../img/my-projects/brand.png';
+import brandImg2x from '../img/my-projects/brand-x2.png';
 
-import freshImg from '../img/my-projects/fresh.jpg';
-import freshImg2x from '../img/my-projects/fresh-x2-min.jpg';
+import freshImg from '../img/my-projects/fresh.png';
+import freshImg2x from '../img/my-projects/fresh-x2.png';
 
-import turnYourImg from '../img/my-projects/turn-your.jpg';
-import turnYourImg2x from '../img/my-projects/turn-your-x2-min.jpg';
+import turnYourImg from '../img/my-projects/turn-your.png';
+import turnYourImg2x from '../img/my-projects/turn-your-x2.png';
 
-import arrowIcon from '../img/symbol-defs.svg#icon-arrow';
+import arrowIcon from '../img/icon.svg#icon-arrow';
 
 const projects = [
     {
@@ -54,7 +54,7 @@ const projects = [
         image: discoverImg,
         image2x: discoverImg2x,
         techStack: "React, JavaScript, Node JS, Git",
-        link: "hhttps://github.com/alex-usenko325/project-Dream4ce",
+        link: "https://github.com/alex-usenko325/project-Dream4ce",
         alt: "English Exellence",
         svg: arrowIcon
     },
