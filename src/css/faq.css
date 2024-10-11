@@ -10,12 +10,10 @@
 }
 .faq-title-content{
     font-family: "Impact", sans-serif;
-
     font-size: 52px;
     line-height: 1.23077;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #292929;
 }
 .faq-title-span-green {
     color: #00b068;
@@ -56,14 +54,11 @@
 }
 .faq-content-item-title{
     flex-grow: 1;
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.55556;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #292929;
-    
 }
 .faq-item-icon-wrap{
     display: flex;
@@ -73,7 +68,6 @@
     gap: 10px;
 }
 .faq-item-icon{
-    
     stroke:#292929;
     fill: none;
 } 
