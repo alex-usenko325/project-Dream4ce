@@ -108,7 +108,7 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: space-between;
   }
 
   .about-me-images-container,
@@ -122,11 +122,11 @@
   }
   .about-me-images-container {
     margin-top: 355px;
-    margin-bottom: 35px;
+    margin-bottom: 60px;
   }
   .about-me-bio-container {
     order: 1;
-    margin-bottom: 90px;
+    margin-bottom: 140px;
   }
   .about-me-education-container {
     order: 2;
