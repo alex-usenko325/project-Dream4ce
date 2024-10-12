@@ -18,6 +18,8 @@
   "license": "ISC",
   "dependencies": {
 
+
+    "accordion-js": "^3.3.4",
     "izitoast": "^1.4.0",
     "scrollreveal": "^4.0.9",
     "simplebox": "^0.1.0",
