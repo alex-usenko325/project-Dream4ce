@@ -99,6 +99,7 @@
     background-size: 336px 252px;
     background-position: 100% 80%;
   }
+
   .about-me-title {
     font-size: 108px;
     letter-spacing: 1.8px;
@@ -108,7 +109,9 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    gap: 16px;
+    /* justify-content: flex-start; 
+    column-gap: 32px; */
+    justify-content: space-between;
   }
 
   .about-me-images-container,
@@ -118,7 +121,7 @@
 
   .about-me-bio-container,
   .about-me-role-container {
-    flex-basis: 48%;
+    flex-basis: 336px;
   }
   .about-me-images-container {
     margin-top: 355px;
@@ -134,6 +137,41 @@
   }
   .about-me-role-container {
     order: 4;
+  }
+
+  .about-me-education-list-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 16px;
+  }
+  .about-me-role-list-item {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 16px;
+  }
+  .about-me-education-list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 13%;
+    transform: translateY(-50%);
+
+    width: 4px;
+    height: 4px;
+    background-color: #00b068;
+    border-radius: 1px;
+  }
+
+  .about-me-role-list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: #00b068;
+    border-radius: 1px;
   }
   .about-me-subtitle {
     font-size: 36px;
@@ -161,6 +199,14 @@
     padding-left: 210px;
   }
   .about-me {
+
+    margin-left: 32px;
+    margin-right: 32px;
+
+    background-image: url('decor-bg-2.png');
+
+    background-repeat: no-repeat;
+
     background-size: 384px 288px;
     background-position: 850px 650px;
   }
@@ -171,7 +217,7 @@
   .about-me-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 150px;
+    /* gap: 150px; */
   }
   .about-me-images-container,
   .about-me-education-container {
