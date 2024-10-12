@@ -17,8 +17,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 32px;
-
-  /* justify-content: center; */
 }
 .bung {
   display: none;
@@ -80,7 +78,6 @@
   }
 
   .benefits-list {
-    position: absolute;
     top: 276px;
   }
 
