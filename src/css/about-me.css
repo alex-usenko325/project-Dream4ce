@@ -82,7 +82,6 @@
   }
   .about-me-role-container {
     order: 4;
-    margin-bottom: 80px;
   }
 }
 /* ============================/MOBILE STYLES========================================= */
@@ -92,7 +91,10 @@
   .about-me {
     margin-left: 32px;
     margin-right: 32px;
-    background-image: url('../img/bagraund/decor-bg2.png');
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg2.png) 1x,
+      url(../img/background/decor-bg2-2x.png) 2x
+    );
     background-repeat: no-repeat;
     background-size: 336px 252px;
     background-position: 100% 80%;
@@ -104,6 +106,7 @@
   }
   .about-me-container {
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     gap: 16px;
   }
@@ -141,13 +144,6 @@
     font-size: 16px;
     letter-spacing: 0.2px;
     line-height: 24px;
-  }
-}
-
-@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-  screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .about-me {
-    background-image: url('../img/bagraund/decor-bg2-2x.png');
   }
 }
 
