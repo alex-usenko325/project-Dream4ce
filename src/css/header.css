@@ -1,0 +1,152 @@
+
+.header {
+    background-color: #f8f9fa;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.page-logo {
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.logo-color {
+    color: #00b068;
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        color: #292929;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #00b068;;
+}
+
+.mob-open-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.mob-open-btn-icon {
+    fill: #2f2f37;
+}
+
+/* ------- Theme Switcher --------- */
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    background: #e4e5e6;
+    border-radius: 16px;
+    transition: background 0.4s;
+}
+
+.theme-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #00b068;
+    transition: 0.4s;
+    border-radius: 100%;
+}
+
+.theme-switch input:checked+.slider {
+    transform: translateX(24px);
+    background-color: #00b068;
+}
+
+.theme-switch input:checked {
+    background-color: #292929;
+}
+
+/* --- Mobversion (320px - 359px) --- */
+@media (min-width: 320px) {
+    .nav {
+        height: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .theme-switch {
+        display: inline-block;
+    }
+}
+
+/* --- Tablete (768px +) --- */
+@media (min-width: 768px) {
+    .nav {
+        height: 96px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .mob-open-btn {
+        display: none;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* --- Desktop (1280px +) --- */
+@media (min-width: 1280px) {
+    .nav {
+        height: 96px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .nav-list {
+        gap: 40px;
+    }
+
+    .container {
+        max-width: 1280px;
+    }
+}
+

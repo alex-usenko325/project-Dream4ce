@@ -20,11 +20,11 @@
 
     "axios": "^1.7.7",
     "accordion-js": "^3.3.4",
-
     "izitoast": "^1.4.0",
     "scrollreveal": "^4.0.9",
     "simplebox": "^0.1.0",
     
+
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
