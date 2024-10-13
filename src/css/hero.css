@@ -1,27 +1,4 @@
 @media screen and (max-width: 768px) {
-  .title-hero {
-    width: 360px;
-    height: 968px;
-    padding-top: 94px;
-  }
-
-  .fonts::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-    background-image: url('../img/Group68.png');
-    filter: blur(6px);
-    background-repeat: no-repeat;
-  }
-
-  .fonts {
-    background-image: url('../img/decor.png');
-    background-repeat: no-repeat;
-    position: relative;
-  }
-
   .tags-hero {
     position: absolute;
     display: flex;
@@ -114,16 +91,11 @@
     overflow: visible;
     white-space: nowrap;
   }
-  .container {
-    position: relative;
-    width: 360px;
-  }
 
   .back-color {
     background: #e4e5e6;
     padding-top: 32px;
     padding-bottom: 32px;
-    /* width: 360px; */
   }
   .span-color {
     color: #00b068;
@@ -158,12 +130,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    height: 1032px;
-    padding: 0 32px;
-  }
-
   .title-hero {
     width: 768px;
     height: 1032px;
@@ -282,8 +248,6 @@
   .back-color {
     background: #e4e5e6;
     padding: 40px 0px;
-
-    /* width: 768px; */
   }
   .span-color {
     color: #00b068;
@@ -316,12 +280,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    height: 904px;
-    /* padding: 0 32px; */
-  }
-
   .title-hero {
     padding-top: 168px;
   }
@@ -332,13 +290,13 @@
     right: 0;
     top: 0;
     z-index: -1;
-    background-image: url('../img/pc.svg');
+    background-image: url('/img/pc.svg');
     filter: blur(6px);
     background-repeat: no-repeat;
   }
 
   .fonts {
-    background-image: url('../img/pc.svg');
+    background-image: url('/img/pc.svg');
     background-repeat: no-repeat;
     position: relative;
   }
@@ -442,7 +400,6 @@
   .back-color {
     background: #e4e5e6;
     padding: 40px 0px;
-    /* width: 1280px; */
   }
   .span-color {
     color: #00b068;
