@@ -1,7 +1,5 @@
-
 .header {
-    background-color: #f8f9fa;
-    display: flex;
+  display: flex;
 }
 
 .nav {
@@ -10,49 +8,50 @@
     align-items: center;
     padding-left: 32px;
     padding-right: 32px;
+
 }
 
 .page-logo {
-    font-family: "Impact", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #292929;
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #292929;
 }
 
 .logo-color {
-    color: #00b068;
+  color: #00b068;
 }
 
 .nav-list {
-    display: none;
+  display: none;
 }
 
 .nav-link {
-    transition: color 0.3s ease;
-    font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.03em;
-        color: #292929;
+  transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #00b068;;
+  color: #00b068;
 }
 
 .mob-open-btn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
 }
 
 .mob-open-btn-icon {
-    fill: #2f2f37;
+  fill: #2f2f37;
 }
 
 /* ------- Theme Switcher --------- */
@@ -64,12 +63,13 @@
     background-color: #e4e5e6;
     border-radius: 16px;
     transition: background-color 0.4s;
+
 }
 
 .theme-switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {
@@ -81,15 +81,16 @@
     background-color: #00b068;
     transition: transform 0.4s, background-color 0.4s;
     border-radius: 50%;
+
 }
 
-.theme-switch input:checked+.slider {
-    transform: translateX(24px);
-    background-color: #00b068;
+.theme-switch input:checked + .slider {
+  transform: translateX(24px);
+  background-color: #00b068;
 }
 
 .theme-switch input:checked {
-    background-color: #292929;
+  background-color: #292929;
 }
 
 /* --- Mobversion (320px - 359px) --- */
@@ -107,39 +108,35 @@
     .theme-switch {
         display: inline-block;
     }
+
 }
 
 /* --- Tablete (768px +) --- */
 @media (min-width: 768px) {
-    .nav {
-        height: 96px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .nav {
+    height: 96px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .nav-list {
-        display: flex;
-        gap: 40px;
-    }
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
 
-    .mob-open-btn {
-        display: none;
-    }
+  .mob-open-btn {
+    display: none;
+  }
 
-}
 
 /* --- Desktop (1280px +) --- */
 @media (min-width: 1280px) {
-    .nav {
-        height: 96px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .nav {
+    height: 96px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .nav-list {
-        gap: 40px;
-    }
-}
 
 /* Mobile Menu Styles */
 .mob-menu {
@@ -160,7 +157,6 @@
     background-image: url('/src/img/bagraund/decor-bg8.png');
     background-color: #f0f0f0;
     background-size: cover;
-    /* Подгонка изображения под экран */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -181,7 +177,6 @@
     padding: 0 20px;
 }
 
-/* Логотип в мобильном меню */
 .page-logo.mob-logo {
     font-family: "Impact", sans-serif;
     font-weight: 400;
@@ -199,7 +194,6 @@
     color: #00b068;
 }
 
-/* Список навигации */
 .mob-nav-list {
     list-style: none;
     padding: 0;
@@ -228,7 +222,6 @@
     color: #00b068;
 }
 
-/* Кнопка закрытия мобильного меню */
 .mob-menu-close-btn {
     position: absolute;
     top: 20px;
@@ -239,3 +232,4 @@
     stroke: #1c2225;
     z-index: 1000;
 }
+
