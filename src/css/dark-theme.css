@@ -1,0 +1,20 @@
+.header.dark-theme {
+    background-color: #000000;
+}
+
+.page-logo.dark-theme {
+    color: #ffffff;
+}
+
+.nav-link.dark-theme {
+    color: #ffffff;
+}
+
+.nav-link.dark-theme:hover,
+.nav-link.dark-theme:focus {
+    color: #00ffff;
+}
+
+.mob-open-btn-icon.dark-theme {
+    fill: #ffffff;
+}
