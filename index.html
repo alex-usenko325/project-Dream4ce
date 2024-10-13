@@ -18,39 +18,40 @@
     <script type="module" crossorigin src="/project-Dream4ce/index.js"></script>
     <link rel="modulepreload" crossorigin href="/project-Dream4ce/assets/vendor-lkofqIyI.js">
     <link rel="stylesheet" crossorigin href="/project-Dream4ce/assets/vendor-DnveWo0P.css">
-    <link rel="stylesheet" crossorigin href="/project-Dream4ce/assets/index-N4cG-SnJ.css">
+    <link rel="stylesheet" crossorigin href="/project-Dream4ce/assets/index-BuIJHSLm.css">
   </head>
   <body>
     <header class="header">
-  <nav class="nav container">
-    <a class="page-logo" href="./index.html"
-      >LLOYD<span class="logo-color">JEFFERSON.</span></a
-    >
-
-    <ul class="nav-list">
-      <li class="nav-item">
-        <label class="theme-switch">
-          <input type="checkbox" id="theme-checkbox" />
-          <span class="slider"></span>
-        </label>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#aboutme">About me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#project">Project</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contacts">Contacts</a>
-      </li>
-    </ul>
-
-    <button class="mob-open-btn" type="button" data-menu-button>
-      <svg class="mob-open-btn-icon" width="32" height="32">
-        <use href="/project-Dream4ce/assets/icons-CUJwyT80.svg#icon-menu"></use>
-      </svg>
-    </button>
-  </nav>
+  <div class="overlay"></div>
+  <div class="container navig">
+    <nav class="nav">
+      <a class="page-logo" href="./index.html"
+        >LLOYD<span class="logo-color">JEFFERSON.</span></a
+      >
+      <ul class="nav-list">
+        <li class="nav-item">
+          <label class="theme-switch">
+            <input type="checkbox" id="theme-checkbox" />
+            <span class="slider"></span>
+          </label>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+      <button class="mob-open-btn" type="button" data-menu-button>
+        <svg class="mob-open-btn-icon" width="32" height="32">
+          <use href="/project-Dream4ce/assets/icons-CUJwyT80.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
 </header>
 
     <main>
@@ -491,6 +492,34 @@
 
     </main>
     
+    <div class="mob-menu" data-menu>
+  <div class="mob-menu-header">
+    <a class="page-logo mob-logo" href="./index.html"
+      >LLOYD<span class="logo-color">JEFFERSON.</span></a
+    >
+    <button class="mob-menu-close-btn" data-menu-button-close>
+      <svg class="mob-menu-close-btn-icon" width="36" height="36">
+        <use href="/project-Dream4ce/assets/icons-CUJwyT80.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="container mob-menu-cont">
+    <nav class="mob-nav">
+      <ul class="mob-nav-list">
+        <li class="mob-nav-item">
+          <a class="mob-nav-link" href="#aboutme">About me</a>
+        </li>
+        <li class="mob-nav-item">
+          <a class="mob-nav-link" href="#project">Projects</a>
+        </li>
+        <li class="mob-nav-item">
+          <a class="mob-nav-link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
   </body>
 </html>
