@@ -7,9 +7,3 @@ body {
   letter-spacing: 0.03em;
   color: #292929;
 }
-
-body.dark-theme,
-header.dark-theme {
-  background-color: #000000;
-  color: #ffffff;
-}
