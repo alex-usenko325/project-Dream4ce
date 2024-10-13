@@ -29,8 +29,8 @@
 
 .benefits-list-item-icon {
   border-radius: 8px;
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   stroke: #00b068;
   fill: none;
   background: #bcdfd1;
@@ -73,14 +73,21 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .benefits-wrapper {
+  }
   .benefits-title {
     width: 690px;
   }
 
   .benefits-list {
     max-width: 1280px;
+<<<<<<< Updated upstream
     /* position: absolute;
     top: 276px; */
+=======
+    position: relative;
+    top: -100px;
+>>>>>>> Stashed changes
   }
 
   .bung:first-of-type {
