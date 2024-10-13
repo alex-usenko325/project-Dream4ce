@@ -17,8 +17,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 32px;
-
-  /* justify-content: center; */
 }
 .bung {
   display: none;
@@ -74,12 +72,13 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .benefits-title {
     width: 690px;
   }
 
   .benefits-list {
+    max-width: 1280px;
     position: absolute;
     top: 276px;
   }
