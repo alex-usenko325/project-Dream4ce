@@ -1,0 +1,235 @@
+.header {
+  display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.page-logo {
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.logo-color {
+  color: #00b068;
+}
+
+.nav-list {
+  display: none;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #00b068;
+}
+
+.mob-open-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.mob-open-btn-icon {
+  fill: #2f2f37;
+}
+
+/* ------- Theme Switcher --------- */
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    background-color: #e4e5e6;
+    border-radius: 16px;
+    transition: background-color 0.4s;
+
+}
+
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #00b068;
+    transition: transform 0.4s, background-color 0.4s;
+    border-radius: 50%;
+
+}
+
+.theme-switch input:checked + .slider {
+  transform: translateX(24px);
+  background-color: #00b068;
+}
+
+.theme-switch input:checked {
+  background-color: #292929;
+}
+
+/* --- Mobversion (320px - 359px) --- */
+@media (min-width: 320px) {
+    .nav {
+        height: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navig {
+        width: 100%;
+        box-sizing: border-box;
+        padding:0px;
+    }
+    .theme-switch {
+        display: inline-block;
+    }
+
+}
+
+/* --- Tablete (768px +) --- */
+@media (min-width: 768px) {
+  .nav {
+    height: 96px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .mob-open-btn {
+    display: none;
+  }
+}
+
+/* --- Desktop (1280px +) --- */
+@media (min-width: 1280px) {
+  .nav {
+    height: 96px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* Mobile Menu Styles */
+.mob-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    color: #1c2225;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms ease;
+    padding-top: 40px;
+    background-image: url('/src/img/bagraund/decor-bg8.png');
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mob-menu.is-open {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.mob-menu-cont {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.page-logo.mob-logo {
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #292929;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo-color {
+    color: #00b068;
+}
+
+.mob-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.mob-nav-item {
+    margin-bottom: 20px;
+}
+
+.mob-nav-link {
+    transition: color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #292929;
+    text-decoration: none;
+}
+
+.mob-nav-link:hover,
+.mob-nav-link:focus {
+    color: #00b068;
+}
+
+.mob-menu-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    stroke: #1c2225;
+    z-index: 1000;
+}
+

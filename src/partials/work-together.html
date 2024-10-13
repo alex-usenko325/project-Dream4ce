@@ -1,0 +1,80 @@
+<section id="work" class="section">
+  <div class="container work-wrapper">
+    <div class="work-left">
+      <h2 class="work-title">
+        <span class="work-black">let's</span> work together
+      </h2>
+      <span class="work-bg"></span>
+      <p class="work-text">
+        contact me to transform your ideas into exceptional solutions.
+      </p>
+      <ul class="work-list">
+        <li class="work-item">
+          <svg class="work-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-phone"></use>
+          </svg>
+          <a class="work-link" href="tel:+380904567890">+38 090 456 78 90</a>
+        </li>
+        <li class="work-item">
+          <svg class="work-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-mail"></use>
+          </svg>
+          <a class="work-link" href="mailto:lloydjefferson@gmail.com"
+            >lloydjefferson@gmail.com</a
+          >
+        </li>
+        <li class="work-item">
+          <svg class="work-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-map"></use>
+          </svg>
+          <a class="work-link">USA, New York</a>
+        </li>
+      </ul>
+    </div>
+    <div class="work-right">
+      <form class="work-form" novalidate>
+        <input
+          class="work-input"
+          type="email"
+          name="email"
+          placeholder="Your email*"
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          id="email"
+          required
+        />
+        <label for="email" class="visually-hidden">Email</label>
+        <svg class="work-success-icon" width="16" height="16">
+          <use href="./img/icons.svg#icon-ack"></use>
+        </svg>
+        <p class="error-input js-error">Invalid email, try again</p>
+        <textarea
+          class="work-message"
+          placeholder="Message"
+          name="message"
+          id="message"
+        ></textarea>
+        <label for="message" class="visually-hidden">Message</label>
+        <p class="error-input-msg js-error">All fields must be filled</p>
+        <button type="submit" class="work-btn">send message</button>
+      </form>
+      <span class="work-loader visually-hidden"></span>
+    </div>
+
+    <div class="work-backdrop visually-hidden">
+      <div class="work-modal">
+        <button class="work-modal-close">
+          <svg class="work-icon-close" width="24" height="24">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="work-modal-title">
+          thank you for your interest in cooperation!
+        </h3>
+        <p class="work-modal-text">
+          The manager will contact you shortly to discuss further details and
+          opportunities for cooperation. Please stay in touch.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
