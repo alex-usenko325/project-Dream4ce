@@ -79,8 +79,8 @@
 
   .benefits-list {
     max-width: 1280px;
-    position: absolute;
-    top: 276px;
+    /* position: absolute;
+    top: 276px; */
   }
 
   .bung:first-of-type {
