@@ -1,20 +1,22 @@
-.header.dark-theme {
-    background-color: #000000;
+body.dark-theme {
+    background-color: #2a2d32;
+    color: #e4e5e6;
 }
 
-.page-logo.dark-theme {
-    color: #ffffff;
+/* Other components affected by the theme switch */
+body.dark-theme .page-logo {
+    color: #e4e5e6;
 }
 
-.nav-link.dark-theme {
-    color: #ffffff;
+body.dark-theme .nav-link,
+body.dark-theme .mob-nav-link {
+    color: #e4e5e6;
 }
 
-.nav-link.dark-theme:hover,
-.nav-link.dark-theme:focus {
-    color: #00ffff;
+body.dark-theme .theme-checkbox {
+    background-color: #2a2d32;
 }
 
-.mob-open-btn-icon.dark-theme {
-    fill: #ffffff;
+body.dark-theme .mob-menu {
+    background-color: #292929;
 }
