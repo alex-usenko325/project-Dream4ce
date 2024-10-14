@@ -89,15 +89,6 @@
 /* ============================TABLET STYLES========================================= */
 @media screen and (min-width: 768px) {
   .about-me {
-    margin-left: 32px;
-    margin-right: 32px;
-    background-image: -webkit-image-set(
-      url(../img/background/decor-bg2.png) 1x,
-      url(../img/background/decor-bg2-2x.png) 2x
-    );
-    background-repeat: no-repeat;
-    background-size: 336px 252px;
-    background-position: 100% 80%;
   }
   .about-me-title {
     font-size: 108px;
