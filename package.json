@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/project-Dream4ce/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node ./server/server.js"
   },
   "devDependencies": {
     "glob": "^11.0.0",
@@ -17,6 +18,14 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "scrollreveal": "^4.0.9",
+    "simplebox": "^0.1.0",
+    "swiper": "^11.1.14",
+    "izitoast": "^1.4.0",
+    "axios": "^1.7.7",
+    "accordion-js": "^3.3.4",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
