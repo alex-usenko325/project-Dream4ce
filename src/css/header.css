@@ -23,6 +23,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #292929;
+  line-height: 1;
 }
 
 .logo-color {
@@ -31,16 +32,6 @@
 
 .nav-list {
   display: none;
-}
-
-.nav-link {
-  transition: color 0.3s ease;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  color: #292929;
 }
 
 .nav-link:hover,
@@ -114,7 +105,6 @@
   }
 }
 
-
 /* --- Tablet  --- */
 @media (min-width: 768px) {
 .header {
@@ -140,7 +130,7 @@ font-size: 32px;
   .theme-checkbox {
     margin: 0 40px 0 auto;
 }
- }
+}
 /* --- Desktop (1280px +) --- */
 @media (min-width: 1280px) {
   .visually-hidden {
@@ -176,7 +166,6 @@ font-size: 32px;
 .mob-menu {
       display: flex;
         flex-direction: column;
-      
         position: fixed;
         top: 0;
         left: 0;
@@ -189,7 +178,8 @@ font-size: 32px;
         visibility: hidden;
         pointer-events: none;
         transform: translateX(100%);
-        transition: all 350ms var ease-in-out;
+        transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+        width: 360px;
       }
 .mob-menu.is-open {
   transform: translateX(0);
@@ -206,6 +196,7 @@ font-size: 32px;
     width: 100%;
     flex-grow: 1;
     padding: 0 20px;
+    background-image: url(../img/background/decor-bg8.png);
 }
 
 .page-logo.mob-logo {
