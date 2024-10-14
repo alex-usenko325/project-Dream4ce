@@ -14,13 +14,13 @@
   line-height: 1.25;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #00b068;
+  color: var(--accent-green);
   margin-bottom: 40px;
 }
 
 .hero-button-link {
   border-radius: 16px;
-  background-color: #bcdfd1;
+  background-color: var(--light-accent);
   transform: translateX(105%);
   position: relative;
   display: flex;
@@ -49,7 +49,7 @@
   text-transform: uppercase;
   overflow: visible;
   white-space: nowrap;
-  color: #292929;
+  color: var(--text);
 }
 
 .text-hero {
@@ -61,12 +61,12 @@
 }
 
 .back-color {
-  background: #e4e5e6;
+  background-color: var(--light-grey);
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .span-color {
-  color: #00b068;
+  color: var(--accent-green);
 }
 
 .inline-list {
@@ -220,7 +220,7 @@
   }
 
   .back-color {
-    background: #e4e5e6;
+    background: var(--light-grey);
     padding: 40px 0px;
   }
   .span-color {

@@ -19,7 +19,7 @@
 }
 
 .work-black {
-  color: #292929;
+  color: var(--text);
 }
 
 .work-title {
@@ -29,7 +29,7 @@
   letter-spacing: 1.8px;
   line-height: 64px;
   text-transform: uppercase;
-  color: #00b068;
+  color: var(--accent-green);
   margin-bottom: 40px;
 }
 
@@ -39,7 +39,7 @@
   letter-spacing: 0.5px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--text);
   margin-bottom: 32px;
   max-width: 320px;
 }
@@ -58,7 +58,7 @@
 }
 
 .work-icon {
-  stroke: #00b068;
+  stroke: var(--accent-green);
   fill: none;
   padding: 0;
 }
@@ -68,13 +68,13 @@
   letter-spacing: 0.2px;
   line-height: 24px;
   font-weight: 300;
-  color: #292929;
+  color: var(--text);
   transition: 0.3s ease;
 }
 
 .work-link:hover,
 .work-link:focus {
-  color: #00b068;
+  color: var(--accent-green);
 }
 
 .work-form {
@@ -89,8 +89,8 @@
   letter-spacing: 0.2px;
   line-height: 24px;
   font-weight: 300;
-  color: #292929;
-  background-color: #e4e5e6;
+  color: var(--text);
+  background-color: var(--light-grey);
   border: none;
   outline: none;
   border-radius: 8px;
@@ -117,8 +117,8 @@
   padding: 12px 24px;
   width: 100%;
   height: 48px;
-  background-color: #00b068;
-  color: #f0f0f0;
+  background-color: var(--accent-green);
+  color: var(--white);
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 0.2px;
@@ -183,7 +183,7 @@
   width: 100%;
   height: 100%;
   transition: all 0.3s ease;
-  background-color: rgba(41, 41, 41, 0.8);
+  background-color: var(--background-work-together-backdrop);
 }
 
 .work-modal {
@@ -195,8 +195,8 @@
   width: 320px;
   padding: 48px 32px;
   border-radius: 16px;
-  border: 1px solid #e4e5e6;
-  background-color: #f0f0f0;
+  border: 1px solid var(--light-grey);
+  background-color: var(--white);
 }
 
 .work-modal-close {
@@ -206,10 +206,11 @@
   padding: 0;
   border: none;
   transition: all 0.3s ease;
+  background-color: transparent;
 }
 
 .work-icon-close {
-  stroke: #292929;
+  stroke: var(--text);
   fill: none;
   transition: all 0.3s ease;
 }
@@ -220,7 +221,7 @@
 
 .work-modal-title {
   text-transform: uppercase;
-  color: #00b068;
+  color: var(--accent-green);
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 28px;
@@ -230,7 +231,7 @@
 }
 
 .work-modal-text {
-  color: #292929;
+  color: var(--text);
   font-size: 16px;
   letter-spacing: 0.2px;
   line-height: 24px;
@@ -332,7 +333,7 @@
 }
 
 .work-success-icon {
-  fill: #00b068;
+  fill: var(--accent-green);
   position: absolute;
   right: 17px;
   top: 17px;

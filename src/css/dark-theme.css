@@ -1,22 +1,22 @@
 body.dark-theme {
-    background-color: #2a2d32;
-    color: #e4e5e6;
+  background-color: #1e2023;
+  color: #e4e5e6;
 }
 
 /* Other components affected by the theme switch */
 body.dark-theme .page-logo {
-    color: #e4e5e6;
+  color: #e4e5e6;
 }
 
 body.dark-theme .nav-link,
 body.dark-theme .mob-nav-link {
-    color: #e4e5e6;
+  color: #e4e5e6;
 }
 
 body.dark-theme .theme-checkbox {
-    background-color: #2a2d32;
+  background-color: #2a2d32;
 }
 
 body.dark-theme .mob-menu {
-    background-color: #292929;
+  background-color: #292929;
 }

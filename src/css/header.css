@@ -21,7 +21,7 @@
   font-size: 24px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--text);
   line-height: 1;
 }
 
@@ -35,7 +35,7 @@
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #00b068;
+  color: var(--accent-green);
 }
 
 .mob-open-btn {
@@ -47,7 +47,7 @@
 }
 
 .mob-open-btn-icon {
-  fill: #2f2f37;
+  fill: var(--text);
 }
 
 /* ------- Theme Switcher --------- */
@@ -60,7 +60,7 @@
   width: 48px;
   height: 24px;
   cursor: pointer;
-  background-color: #e4e5e6;
+  background-color: var(--light-grey);
   border-radius: 16px;
   transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -177,7 +177,7 @@
   height: 100%;
   padding: 20px;
   z-index: 999;
-  background-color: #f0f0f0;
+  background-color: var(--white);
   opacity: 0;
   overflow: auto;
   visibility: hidden;
@@ -210,7 +210,7 @@
   font-size: 24px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--text);
   margin-bottom: 20px;
   position: absolute;
   top: 20px;
@@ -218,7 +218,7 @@
 }
 
 .logo-color {
-  color: #00b068;
+  color: var(--accent-green);
 }
 
 .mob-nav-list {
@@ -240,7 +240,7 @@
 
 .mob-nav-link:hover,
 .mob-nav-link:focus {
-  color: #00b068;
+  color: var(--accent-green);
 }
 
 .mob-menu-close-btn {
@@ -252,6 +252,6 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  stroke: #1c2225;
+  stroke: var(--text);
   z-index: 1000;
 }
