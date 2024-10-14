@@ -28,7 +28,7 @@ import freshImg2x from '/img/my-projects/fresh-2x.png';
 import turnYourImg from '/img/my-projects/turn-your.png';
 import turnYourImg2x from '/img/my-projects/turn-your-2x.png';
 
-import arrowIcon from '/img/icons.svg#icon-vector';
+import urlSprite from '/img/icons.svg';
 
 const projects = [
   {
@@ -38,7 +38,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Wallet Webservice Project',
-    svg: arrowIcon,
   },
   {
     title: 'Green harvest webservice',
@@ -47,7 +46,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Green harvest',
-    svg: arrowIcon,
   },
   {
     title: 'English Exellence webservice',
@@ -56,7 +54,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'English Exellence',
-    svg: arrowIcon,
   },
   {
     title: 'Transform your webservice',
@@ -65,7 +62,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Transform your',
-    svg: arrowIcon,
   },
   {
     title: 'Ukraine traditions webservice',
@@ -74,7 +70,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Ukraine traditions',
-    svg: arrowIcon,
   },
   {
     title: 'Stay Healthy webservice',
@@ -83,7 +78,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Stay Healthy',
-    svg: arrowIcon,
   },
   {
     title: 'Mimino webservice',
@@ -92,7 +86,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Mimino',
-    svg: arrowIcon,
   },
   {
     title: 'Transformation with a Touch of the Brush webservice',
@@ -101,7 +94,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Transformation with a Touch of the Brush',
-    svg: arrowIcon,
   },
   {
     title: 'Fresh harvest box webservice',
@@ -110,7 +102,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Fresh harvest box',
-    svg: arrowIcon,
   },
   {
     title: 'Transform your business webservice',
@@ -119,7 +110,6 @@ const projects = [
     techStack: 'React, JavaScript, Node JS, Git',
     link: 'https://github.com/alex-usenko325/project-Dream4ce',
     alt: 'Transform your business',
-    svg: arrowIcon,
   },
 ];
 
@@ -148,7 +138,7 @@ function loadProjects() {
                         <div class="centered">
                                 <a href="${link}" class="project-link" target="_blank">VISIT
                                  <svg class="project-icon" width="15" height="15">
-                                        <use href="${svg}"></use>
+                                        <use href="${urlSprite}#icon-vector"></use>
                                     </svg>
                                 </a>
                                 
