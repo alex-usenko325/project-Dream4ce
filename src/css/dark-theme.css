@@ -37,7 +37,7 @@ body.dark-theme .faq-title-span-green {
   color: #14c57c;
 }
 
-body.dark-theme .faq-content-item:first-child {
+body.dark-theme .faq-content-item {
   background: #204136;
   border-bottom: 1px solid #2a2d32;
 }
