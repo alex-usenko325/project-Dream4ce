@@ -1,3 +1,5 @@
+
+
 /* Styles for Mobile devices */
 .container {
   box-sizing: border-box;
@@ -24,6 +26,7 @@
   }
 
   .section {
-    margin-bottom: 164px;
+    padding-bottom: 164px;
   }
+    
 }

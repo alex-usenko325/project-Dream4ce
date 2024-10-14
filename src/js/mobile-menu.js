@@ -1,18 +1,21 @@
-const menuButton = document.querySelector('[data-menu-button]');
-const closeButton = document.querySelector('[data-menu-button-close]');
-const mobileMenu = document.querySelector('[data-menu]');
-const menuLinks = document.querySelectorAll('.mob-nav-link');
 
-menuButton.addEventListener('click', () => {
+const menuOpenBtn = document.getElementById('menu-open-btn'); 
+const menuCloseBtn = document.querySelector('[data-menu-button-close]'); 
+const mobileMenu = document.querySelector('.mob-menu'); 
+
+function openMenu() {
   mobileMenu.classList.add('is-open');
-});
+}
 
-closeButton.addEventListener('click', () => {
+function closeMenu() {
   mobileMenu.classList.remove('is-open');
-});
+}
 
+menuOpenBtn.addEventListener('click', openMenu);
+menuCloseBtn.addEventListener('click', closeMenu);
+
+const menuLinks = document.querySelectorAll('.mob-nav-link');
 menuLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    mobileMenu.classList.remove('is-open');
-  });
+  link.addEventListener('click', closeMenu);
+
 });
