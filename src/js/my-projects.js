@@ -1,4 +1,4 @@
-import urlSprite from '../img/icons.svg';
+
 
 
 import managerFinanceImg from '/img/my-projects/maneger-finance.png';
