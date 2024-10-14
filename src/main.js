@@ -7,4 +7,5 @@ import '/js/faq.js';
 import '/js/my-projects.js';
 import '/js/hero.js';
 import '/js/benefits.js';
+import '/js/scroll.js';
 
