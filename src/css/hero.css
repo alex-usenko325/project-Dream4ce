@@ -85,6 +85,9 @@
   align-items: center;
   left: -153px;
   position: absolute;
+  stroke-width: 2px;
+  stroke: #00b068;
+  fill: none;
 }
 .img-hero-people {
   display: none;
