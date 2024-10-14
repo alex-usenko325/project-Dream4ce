@@ -22,7 +22,8 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #292929;
-  margin-right: 108px;
+  line-height: 1;
+
 }
 
 .logo-color {
@@ -33,9 +34,6 @@
   display: none;
 }
 
-.nav-link {
-  transition: color 0.3s ease;
-}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -136,6 +134,8 @@
     margin: 0 40px 0 auto;
   }
 }
+
+
 /* --- Desktop (1280px +) --- */
 @media (min-width: 1280px) {
   .visually-hidden {
@@ -172,23 +172,24 @@
 
 /* Mobile Menu Styles */
 .mob-menu {
-  display: flex;
-  flex-direction: column;
+      display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        z-index: 10;
+        background-color: #f0f0f0;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translateX(100%);
+        transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+        width: 360px;
+      }
 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  z-index: 10;
-  background-color: #f0f0f0;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transform: translateX(100%);
-  transition: all 350ms var ease-in-out;
-}
 .mob-menu.is-open {
   transform: translateX(0);
   opacity: 1;
@@ -196,14 +197,16 @@
   pointer-events: auto;
 }
 .mob-menu-cont {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  flex-grow: 1;
-  padding: 0 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    padding: 0 20px;
+    background-image: url(../img/background/decor-bg8.png);
+
 }
 
 .page-logo.mob-logo {
