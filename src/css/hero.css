@@ -80,6 +80,11 @@
   justify-content: center;
 }
 
+.li-fone:hover,
+.li-fone:focus {
+  color: rgba(0, 176, 104, 1);
+}
+
 .img-title {
   display: flex;
   align-items: center;
