@@ -148,7 +148,7 @@ function loadProjects() {
                         <div class="centered">
                             <button type="button" class="project-button">
                                 <a href="${link}" class="project-link" target="_blank">VISIT
-                                    <svg class="project-icon">
+                                    <svg  width="36" height="16"class="project-icon">
                                         <use href="${svg}"></use>
                                     </svg>
                                 </a>
