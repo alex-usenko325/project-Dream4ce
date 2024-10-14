@@ -25,7 +25,7 @@
   line-height: 40px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  background-color: #bcdfd1;
+  background-color: var(--light-accent);
   position: relative;
   z-index: 1;
 }
@@ -61,7 +61,7 @@
   transform: translateY(-50%);
   width: 8px;
   height: 8px;
-  background-color: #00b068;
+  background-color: var(--accent-green);
   border-radius: 2px;
 }
 
@@ -73,8 +73,8 @@
   line-height: 40px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #00b068;
-  background-color: #e4e5e6;
+  color: var(--accent-green);
+  background-color: var(--light-grey);
   transform: translateX(-2px) rotate(2deg);
   z-index: 0;
 }
@@ -110,7 +110,7 @@
   transform: translateY(-50%);
   width: 8px;
   height: 8px;
-  background-color: #292929;
+  background-color: var(--text);
   border-radius: 2px;
 }
 

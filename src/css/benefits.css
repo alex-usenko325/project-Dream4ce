@@ -9,7 +9,7 @@
 }
 
 .benefits-title span {
-  color: #00b068;
+  color: var(--accent-green);
 }
 
 .benefits-list {
@@ -29,9 +29,9 @@
 
 .benefits-list-item-icon {
   border-radius: 8px;
-  stroke: #00b068;
+  stroke: var(--accent-green);
   fill: transparent;
-  background: #bcdfd1;
+  background-color: var(--light-accent);
   padding: 12px;
 }
 

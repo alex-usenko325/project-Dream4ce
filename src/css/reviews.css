@@ -21,7 +21,8 @@
   border-radius: 16px;
   padding: 32px;
   width: 320px;
-  background: #e4e5e6;
+  height: 296px;
+  background: var(--light-grey);
 }
 
 .container-reviews {
@@ -65,51 +66,51 @@
 }
 
 .icon-disabled {
-  border: 1px solid #e4e5e6;
+  border: 1px solid var(--light-grey);
   cursor: not-allowed;
   opacity: 0.5;
   pointer-events: none;
 }
 
 .icon-active {
-  border: 1px solid #292929;
-  background-color: #ffffff;
+  border: 1px solid var(--text);
+  background-color: var(--light-grey);
   cursor: pointer;
   opacity: 1;
 }
 
 .icon-active:hover {
-  background-color: #e4e5e6;
+  background-color: var(--light-grey);
 }
 
 .icon-arrow-left {
-  stroke: #e4e5e6;
+  stroke: var(--light-grey);
   fill: none;
-  border: 1px solid #e4e5e6;
+  border: 1px solid var(--light-grey);
   transform: rotate(-180deg);
 }
 
 /* Right arrow */
 .icon-arrow-rigth {
-  stroke: #292929;
+  stroke: var(--text);
   fill: none;
-  border: 1px solid #292929;
+  border: 1px solid var(--text);
   margin-left: 16px;
 }
 
 /* Active left arrow */
 .icon-arrow-left.icon-active {
-  stroke: #292929;
+  stroke: var(--text);
 }
 
 /* Disabled left arrow */
 .icon-arrow-left.icon-disabled {
-  stroke: #e4e5e6;
+  stroke: var(--light-grey);
 }
 
 /* Disabled right arrow */
 .icon-arrow-rigth.icon-disabled {
-  stroke: #e4e5e6;
+  stroke: var(--light-grey);
 }
 
 /* ------------------- TABLET ------------------- */
