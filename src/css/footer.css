@@ -4,6 +4,8 @@
 }
 
 .footer-font {
+    font-weight: 300;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.2px;
 }
@@ -25,6 +27,10 @@
 
 .footer-container {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 20px 40px 20px;
+    max-width: 360px;
     height: 384px;
 }
 
@@ -74,6 +80,7 @@
 
 @media screen and (min-width: 768px) {
     .footer-container {
+        max-width: 768px;
         height: 216px;
     }
 
@@ -107,6 +114,7 @@
 
 @media screen and (min-width: 1280px) {
     .footer-container {
+        max-width: 1280px;
         height: 160px;
     }
 
