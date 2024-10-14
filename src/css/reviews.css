@@ -193,24 +193,12 @@
   }
 
   .icon-arrow-left {
-    /* stroke: #e4e5e6;
-            fill: none;
-            border: 1px solid #e4e5e6;
-            border-radius: 8px;
-            padding: 12px; */
     width: 48px;
     height: 48px;
-    /* transform: rotate(-180deg); */
   }
 
   .icon-arrow-rigth {
-    /* stroke: #292929;
-            fill: none;
-            border: 1px solid #292929;
-            border-radius: 8px;
-            padding: 12px; */
     width: 48px;
     height: 48px;
-    /* margin-left: 24px; */
   }
 }
