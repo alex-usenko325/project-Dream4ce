@@ -1,0 +1,238 @@
+.title-names-one {
+  font-family: Impact, sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 112px;
+}
+.title-names-two {
+  font-family: Impact, sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #00b068;
+  margin-bottom: 40px;
+}
+
+.hero-button-link {
+  border-radius: 16px;
+  background-color: #bcdfd1;
+  transform: translateX(105%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  width: 165px;
+  height: 92px;
+}
+
+.hero-button-link:hover,
+.hero-button-link:focus {
+  background: #00b068;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button {
+  position: relative;
+  transform: translateX(-60%);
+  display: flex;
+  text-align: center;
+  max-width: 185px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  overflow: visible;
+  white-space: nowrap;
+  color: #292929;
+}
+
+.text-hero {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 72px;
+}
+
+.back-color {
+  background: #e4e5e6;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.span-color {
+  color: #00b068;
+}
+
+.inline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.li-fone {
+  width: 87px;
+  display: flex;
+  justify-content: center;
+}
+
+.li-fone:hover,
+.li-fone:focus {
+  color: rgba(0, 176, 104, 1);
+}
+
+.img-title {
+  display: flex;
+  align-items: center;
+  left: -153px;
+  position: absolute;
+  stroke-width: 2px;
+  fill: #00b068;
+}
+.img-hero-people {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .li-fone {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title-names-one {
+    padding-top: 88px;
+    font-size: 136px;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+
+  .title-names-two {
+    font-size: 136px;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #00b068;
+    margin-bottom: 60px;
+  }
+
+  .hero-button-link {
+    transform: translateX(65%);
+    width: 261px;
+    height: 96px;
+    margin-bottom: 60px;
+  }
+
+  .text-hero {
+    font-size: 20px;
+    margin-bottom: 80px;
+    max-width: 704px;
+    max-height: 96px;
+  }
+
+  .hero-button {
+    transform: translateX(-55%);
+  }
+
+  .back-color {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .img-title {
+    align-items: center;
+    left: -150px;
+    position: absolute;
+  }
+
+  .inline-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .img-hero-people {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title-names-one {
+    margin-right: 40px;
+    padding-top: 184px;
+    display: inline-block;
+  }
+
+  .title-names-two {
+    margin-bottom: 80px;
+  }
+  .hero-button-link {
+    transform: translateX(100%);
+    margin-bottom: 132px;
+  }
+
+  .text-hero {
+    padding-left: 136px;
+    margin-bottom: 132px;
+  }
+
+  .hero-button {
+    position: relative;
+    transform: translateX(-55%);
+    display: flex;
+    text-align: center;
+    max-width: 185px;
+    max-height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  .back-color {
+    background: #e4e5e6;
+    padding: 40px 0px;
+  }
+  .span-color {
+    color: #00b068;
+  }
+  .span-button {
+    display: flex;
+    text-align: left;
+  }
+  .img-title {
+    align-items: center;
+    left: -150px;
+    position: absolute;
+  }
+
+  .inline-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .inline-list li {
+    margin-right: 40px;
+  }
+  .hero-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img-hero-people {
+    display: block;
+    display: inline-block;
+  }
+}

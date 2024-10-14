@@ -1,33 +1,37 @@
-const menuButton = document.querySelector('[data-menu-button]');
-const closeButton = document.querySelector('[data-menu-button-close]');
-const mobileMenu = document.querySelector('[data-menu]');
+const menuOpenBtn = document.getElementById('menu-open-btn');
+const menuCloseBtn = document.querySelector('[data-menu-button-close]');
+const mobileMenu = document.querySelector('.mob-menu');
 
-menuButton.addEventListener('click', () => {
-mobileMenu.classList.add('is-open');
-});
-
-closeButton.addEventListener('click', () => {
-mobileMenu.classList.remove('is-open');
-});
-
-
-const themeCheckbox = document.getElementById('theme-checkbox');
-
-if (localStorage.getItem('theme') === 'dark') {
-    document.body.classList.add('dark-theme');
-    document.querySelector('header').classList.add('dark-theme'); 
-    themeCheckbox.checked = true; 
+function openMenu() {
+  mobileMenu.classList.add('is-open');
 }
 
+function closeMenu() {
+  mobileMenu.classList.remove('is-open');
+}
 
-themeCheckbox.addEventListener('change', function() {
-    if (themeCheckbox.checked) {
-        document.body.classList.add('dark-theme');
-        document.querySelector('header').classList.add('dark-theme'); 
-        localStorage.setItem('theme', 'dark');
-    } else {
-        document.body.classList.remove('dark-theme');
-        document.querySelector('header').classList.remove('dark-theme');
-        localStorage.setItem('theme', 'light');
-    }
+menuOpenBtn.addEventListener('click', openMenu);
+menuCloseBtn.addEventListener('click', closeMenu);
+
+const menuLinks = document.querySelectorAll('.mob-nav-link');
+menuLinks.forEach(link => {
+  link.addEventListener('click', closeMenu);
+});
+
+const themeCheckbox = document.getElementById('change-theme');
+if (localStorage.getItem('theme') === 'dark') {
+  document.body.classList.add('dark-theme');
+  document.querySelector('header').classList.add('dark-theme');
+  themeCheckbox.checked = true;
+}
+themeCheckbox.addEventListener('change', function () {
+  if (themeCheckbox.checked) {
+    document.body.classList.add('dark-theme');
+    document.querySelector('header').classList.add('dark-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    document.body.classList.remove('dark-theme');
+    document.querySelector('header').classList.remove('dark-theme');
+    localStorage.setItem('theme', 'light');
+  }
 });

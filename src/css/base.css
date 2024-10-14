@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -7,4 +10,13 @@ body {
   letter-spacing: 0.03em;
   color: #292929;
   background-color: #f0f0f0;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }

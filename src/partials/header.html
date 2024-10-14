@@ -1,32 +1,64 @@
 <header class="header">
-  <div class="overlay"></div>
-  <div class="container navig">
+  <div class="container header-container">
+    <a class="page-logo" href="./index.html"
+      >LLOYD<span class="logo-color">JEFFERSON.</span></a
+    >
+
+    <input
+      type="checkbox"
+      class="header-theme-checkbox theme-checkbox"
+      id="change-theme"
+    />
+    <label for="change-theme" class="visually-hidden">Change theme</label>
+
     <nav class="nav">
-      <a class="page-logo" href="./index.html"
-        >LLOYD<span class="logo-color">JEFFERSON.</span></a
-      >
       <ul class="nav-list">
-        <li class="nav-item">
-          <label class="theme-switch">
-            <input type="checkbox" id="theme-checkbox" />
-            <span class="slider"></span>
-          </label>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="#aboutme">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#project">Project</a>
+          <a class="nav-link" href="#my-projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contacts">Contacts</a>
+          <a class="nav-link" href="#work">Contacts</a>
         </li>
       </ul>
-      <button class="mob-open-btn" type="button" data-menu-button>
+      <button class="mob-open-btn" type="button" id="menu-open-btn">
+        <span class="visually-hidden">Open menu</span>
         <svg class="mob-open-btn-icon" width="32" height="32">
           <use href="/img/icons.svg#icon-menu"></use>
         </svg>
       </button>
     </nav>
+  </div>
+
+  <div class="mob-menu" data-menu>
+    <div class="mob-menu-header">
+      <a class="page-logo mob-logo" href="./index.html"
+        >LLOYD<span class="logo-color">JEFFERSON.</span></a
+      >
+      <button class="mob-menu-close-btn" data-menu-button-close>
+        <span class="visually-hidden">Close menu</span>
+        <svg class="mob-menu-close-btn-icon" width="32" height="32">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mob-menu-cont">
+      <nav class="mob-nav">
+        <ul class="mob-nav-list">
+          <li class="mob-nav-item">
+            <a class="mob-nav-link" href="#aboutme">About me</a>
+          </li>
+          <li class="mob-nav-item">
+            <a class="mob-nav-link" href="#my-projects">Projects</a>
+          </li>
+          <li class="mob-nav-item">
+            <a class="mob-nav-link" href="#work">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
