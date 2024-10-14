@@ -1,6 +1,6 @@
 /* ------------------- MOBILE -------------------  */
 .reviews {
-  margin-bottom: 144px;
+  padding-bottom: 144px;
 }
 .title-reviews {
   font-family: 'Impact', sans-serif;
@@ -114,7 +114,7 @@
 /* ------------------- TABLET ------------------- */
 @media screen and (min-width: 768px) {
   .reviews {
-    margin-bottom: 188px;
+    padding-bottom: 188px;
   }
 
   .title-reviews {
@@ -146,7 +146,7 @@
 /* ------------------- DESCTOP ------------------- */
 @media screen and (min-width: 1280px) {
   .reviews {
-    margin-bottom: 236px;
+    padding-bottom: 236px;
   }
 
   .title-reviews {
