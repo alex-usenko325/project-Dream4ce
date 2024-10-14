@@ -2,7 +2,6 @@
 body.dark-theme {
   background-color: #1e2023;
   color: #e4e5e6;
-
 }
 
 /* --- About Me Section --- */
@@ -38,7 +37,7 @@ body.dark-theme .faq-title-span-green {
   color: #14c57c;
 }
 
-body.dark-theme .faq-content-item {
+body.dark-theme .faq-content-item:first-child {
   background: #204136;
   border-bottom: 1px solid #2a2d32;
 }
