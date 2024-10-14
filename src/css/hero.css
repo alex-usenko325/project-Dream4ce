@@ -143,7 +143,6 @@
   }
 
   .img-title {
-    display: flex;
     align-items: center;
     left: -150px;
     position: absolute;
@@ -207,7 +206,6 @@
     text-align: left;
   }
   .img-title {
-    display: flex;
     align-items: center;
     left: -150px;
     position: absolute;
