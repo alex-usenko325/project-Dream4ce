@@ -97,6 +97,13 @@
   display: none;
 }
 
+.hero-bg-wrapper {
+  background-image: url(../img/background/decor-bg8.png),
+    url(../img/background/decor-bg8.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, right top 362px;
+}
+
 @media screen and (max-width: 767px) {
   .li-fone {
     margin: 0 auto;
@@ -104,6 +111,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-bg-wrapper {
+    background-image: url(../img/background/decor-bg5.png),
+      url(../img/background/decor-bg5-2x.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, right 224px bottom 178px;
+  }
+
   .title-names-one {
     padding-top: 88px;
     font-size: 136px;
@@ -163,6 +177,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-bg-wrapper {
+    background-image: url(../img/background/decor-bg1.png),
+      url(../img/background/decor-bg1-2x.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top 468px left 204px;
+  }
+
   .title-names-one {
     margin-right: 40px;
     padding-top: 184px;
