@@ -28,7 +28,7 @@ import freshImg2x from '/img/my-projects/fresh-2x.png';
 import turnYourImg from '/img/my-projects/turn-your.png';
 import turnYourImg2x from '/img/my-projects/turn-your-2x.png';
 
-import arrowIcon from '/img/icons.svg#icon-arrow-narrow';
+import arrowIcon from '/img/icons.svg#icon-vector';
 
 const projects = [
   {
