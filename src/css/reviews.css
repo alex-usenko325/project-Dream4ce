@@ -4,7 +4,7 @@
 }
 
 
-/* ------------------- MOBILE -------------------  */
+/* ------------------- MOBILE ------------------- */
 
 .reviews {
     min-width: 320px;
@@ -42,7 +42,7 @@
 .para-reviews {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     color: #292929;
@@ -50,9 +50,10 @@
 
 .container-reviews {
     display: flex;
+    align-items: center;
     padding-top: 24px;
     width: 256px;
-    height: 40px;
+    min-height: 40px;
 }
 
 .feat-icon {
@@ -71,6 +72,8 @@
     letter-spacing: 0.03em;
     color: #292929;
     padding-left: 16px;
+    text-align: center;
+    align-items: center;
 }
 
 .container-icon {
@@ -117,7 +120,6 @@
     transform: rotate(-180deg);
 }
 
-/* Right arrow */
 .icon-arrow-rigth {
     stroke: #292929;
     fill: none;
@@ -125,22 +127,20 @@
     margin-left: 16px;
 }
 
-/* Active left arrow */
 .icon-arrow-left.icon-active {
     stroke: #292929;
 }
 
-/* Disabled left arrow */
 .icon-arrow-left.icon-disabled {
     stroke: #e4e5e6;
 }
 
-/* Disabled right arrow */
 .icon-arrow-rigth.icon-disabled {
     stroke: #e4e5e6;
 }
 
 /* ------------------- TABLET ------------------- */
+
 @media screen and (min-width: 768px) {
     .reviews {
         padding: 0px 32px;
@@ -176,6 +176,7 @@
 }
 
 /* ------------------- DESCTOP ------------------- */
+
 @media screen and (min-width: 1280px) {
     .reviews {
             width: 1280px;
@@ -191,7 +192,7 @@
         }
 
         .menu-reviews .menu-item-reviews:nth-child(2) {
-            display: block;
+            display: flex;
         }
     
         .menu-reviews {
@@ -212,10 +213,10 @@
         .container-reviews {
             display: flex;
             width: 528px;
-            min-height: 40px;
+            min-height: 70px;
             padding-top: 32px;
         }
-    
+
         .feat-icon {
             width: 40px;
             height: 40px;
@@ -230,25 +231,25 @@
         }
     
         .icon-arrow-left {
-            /* stroke: #e4e5e6;
+            stroke: #e4e5e6;
             fill: none;
             border: 1px solid #e4e5e6;
             border-radius: 8px;
-            padding: 12px; */
+            padding: 12px;
             width: 48px;
             height: 48px;
-            /* transform: rotate(-180deg); */
+            transform: rotate(-180deg);
         }
     
         .icon-arrow-rigth {
-            /* stroke: #292929;
+            stroke: #292929;
             fill: none;
             border: 1px solid #292929;
             border-radius: 8px;
-            padding: 12px; */
+            padding: 12px;
             width: 48px;
             height: 48px;
-            /* margin-left: 24px; */
+            margin-left: 24px;
         }
 }
 
