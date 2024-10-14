@@ -1,0 +1,122 @@
+.footer {
+    border-top: 1px solid #E4E5E6;
+    padding-top: 40px;
+}
+
+.footer-font {
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.footer-logo-link {
+    font-family: 'Impact';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.footer-logo-span {
+    color: #00b068;
+}
+
+/**-------------------360--------------------*/
+
+.footer-container {
+    display: flex;
+    height: 384px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.footer-list-item {
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+.footer-list-item:hover,
+.footer-list-item:focus {
+    color: rgba(0, 176, 104, 1);
+}
+
+.footer-list-link {
+    transition: color 250ms;
+}
+
+.footer-list-link:hover,
+.footer-list-link:focus {
+    color: rgba(0, 176, 104, 1);
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/**-------------------768--------------------*/
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        height: 216px;
+    }
+
+    .footer-content {
+        height: 50%;
+    }
+
+    .footer-list {
+        flex-direction: row;
+        width: 412px;
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
+    .footer-list-item {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    .space-copyright {
+        margin-left: 5px;
+    }
+}
+
+/**-------------------1280--------------------*/
+
+@media screen and (min-width: 1280px) {
+    .footer-container {
+        height: 160px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-list {
+        height: 24px;
+        padding-top: 0px;
+    }
+}

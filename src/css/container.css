@@ -1,7 +1,6 @@
-
-
 /* Styles for Mobile devices */
 .container {
+  box-sizing: border-box;
   max-width: 360px;
   margin: 0 auto;
   padding: 0 20px;
@@ -14,6 +13,7 @@
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 32px;
   }
 }
 /* Styles for Desktop devices */
@@ -23,7 +23,6 @@
   }
 
   .section {
-    padding-bottom: 164px;
+    margin-bottom: 164px;
   }
-    
 }

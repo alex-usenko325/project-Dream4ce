@@ -10,10 +10,9 @@
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-  gap:16px;
-
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .page-logo {
@@ -24,6 +23,7 @@
   text-transform: uppercase;
   color: #292929;
   line-height: 1;
+
 }
 
 .logo-color {
@@ -33,6 +33,7 @@
 .nav-list {
   display: none;
 }
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -44,7 +45,7 @@
   border: none;
   cursor: pointer;
   display: flex;
-  padding:0;
+  padding: 0;
 }
 
 .mob-open-btn-icon {
@@ -52,11 +53,12 @@
 }
 
 /* ------- Theme Switcher --------- */
+
 .theme-checkbox {
+  display: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
   position: relative;
   width: 48px;
   height: 24px;
@@ -107,12 +109,12 @@
 
 /* --- Tablet  --- */
 @media (min-width: 768px) {
-.header {
+  .header {
     padding: 32px 0;
   }
-.page-logo {
-font-size: 32px;
-}
+  .page-logo {
+    font-size: 32px;
+  }
   .nav {
     gap: 40px;
   }
@@ -121,45 +123,51 @@ font-size: 32px;
     display: flex;
     gap: 40px;
   }
-.mob-menu-cont{
-  display: none;
-}  
+
+  .mob-menu-cont {
+    display: none;
+  }
   .mob-open-btn {
     display: none;
-        }
+  }
   .theme-checkbox {
     margin: 0 40px 0 auto;
+  }
 }
-}
+
+
 /* --- Desktop (1280px +) --- */
 @media (min-width: 1280px) {
   .visually-hidden {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      border: 0;
-      padding: 0;
-      white-space: nowrap;
-      clip-path: inset(100%);
-      clip: rect(0 0 0 0);
-      overflow: hidden;
-    }
-  
-    .is-open {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-      transform: translateX(0);
-      display: flex;
-    }
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+    display: flex;
+  }
   .mob-menu-cont {
-      display: none;
-    }
-    
+    display: none;
+  }
+
+  .theme-checkbox {
+    display: block;
+  }
   .mob-open-btn {
     display: none;
-        }
+  }
 }
 
 /* Mobile Menu Styles */
@@ -181,6 +189,7 @@ font-size: 32px;
         transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
         width: 360px;
       }
+
 .mob-menu.is-open {
   transform: translateX(0);
   opacity: 1;
@@ -197,61 +206,57 @@ font-size: 32px;
     flex-grow: 1;
     padding: 0 20px;
     background-image: url(../img/background/decor-bg8.png);
+
 }
 
 .page-logo.mob-logo {
-    font-family: "Impact", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #292929;
-    margin-bottom: 20px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
+  font-family: 'Impact', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .logo-color {
-    color: #00b068;
+  color: #00b068;
 }
 
 .mob-nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .mob-nav-item {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .mob-nav-link {
-    transition: color 0.3s ease;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    color: #292929;
-    text-decoration: none;
+  transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .mob-nav-link:hover,
 .mob-nav-link:focus {
-    color: #00b068;
+  color: #00b068;
 }
 
 .mob-menu-close-btn {
   position: absolute;
   top: 20px;
-    right: 20px;
-    line-height: 0;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    stroke: #1c2225;
-    z-index: 1000;
+
+  right: 20px;
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  stroke: #1c2225;
+  z-index: 1000;
 }

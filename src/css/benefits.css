@@ -29,12 +29,9 @@
 
 .benefits-list-item-icon {
   border-radius: 8px;
-  width: 24px;
-  height: 24px;
   stroke: #00b068;
-  fill: none;
+  fill: transparent;
   background: #bcdfd1;
-  padding: 12px;
 }
 
 .benefits-list-item-title {

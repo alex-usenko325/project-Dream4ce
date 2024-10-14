@@ -28,4 +28,21 @@ faqAccWrap.forEach(item => {
     faqIcon.classList.toggle('faq-is-active');
     faqDescription.classList.toggle('hidden');
   });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const elements = document.querySelectorAll('.hidden-element');
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible-element');
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    elements.forEach(element => {
+      observer.observe(element);
+    });
+  });
 });
