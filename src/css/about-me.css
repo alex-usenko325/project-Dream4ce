@@ -199,6 +199,10 @@
 
 /* ============================DESKTOP STYLE========================================= */
 @media screen and (min-width: 1280px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
   .about-me-container {
     padding-left: 210px;
   }
