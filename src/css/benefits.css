@@ -29,7 +29,8 @@
 
 .benefits-list-item-icon {
   border-radius: 8px;
-  fill: #00b068;
+  stroke: #00b068;
+  fill: transparent;
   background: #bcdfd1;
 }
 
