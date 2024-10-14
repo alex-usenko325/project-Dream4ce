@@ -15,10 +15,11 @@ import{i as j,S as C,a as N,A as O}from"./assets/vendor-DFi10nYr.js";(function()
                         <h3 class="project-name">${T}</h3>
                         <div class="centered">
                                 <a href="${B}" class="project-link" target="_blank">VISIT
-                                    <svg class="project-icon" width="15" height="15">
+                                 <svg class="project-icon" width="15" height="15">
                                         <use href="${G}"></use>
                                     </svg>
                                 </a>
+                                
                         </div>
                     </div>
                 </div>
