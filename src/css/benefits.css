@@ -17,8 +17,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 32px;
-
-  /* justify-content: center; */
 }
 .bung {
   display: none;
@@ -31,12 +29,9 @@
 
 .benefits-list-item-icon {
   border-radius: 8px;
-  width: 24px;
-  height: 24px;
   stroke: #00b068;
-  fill: none;
+  fill: transparent;
   background: #bcdfd1;
-  padding: 12px;
 }
 
 .benefits-list-item-title {
@@ -74,14 +69,13 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .benefits-title {
     width: 690px;
   }
 
   .benefits-list {
-    position: absolute;
-    top: 276px;
+    max-width: 1280px;
   }
 
   .bung:first-of-type {
