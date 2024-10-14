@@ -27,6 +27,8 @@
 
 .container-reviews {
   display: flex;
+  justify-content: start;
+  align-items: center;
   padding-top: 24px;
   width: 256px;
   height: 40px;
