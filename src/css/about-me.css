@@ -109,6 +109,19 @@
     margin-top: 355px;
     margin-bottom: 60px;
   }
+
+  .about-me-bg {
+    position: absolute;
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg6.png) 1x,
+      url(../img/background/decor-bg6-2x.png) 2x
+    );
+    top: 656px;
+    right: 15px;
+    width: 336px;
+    height: 260px;
+    background-repeat: no-repeat;
+  }
   .about-me-bio-container {
     order: 1;
     margin-bottom: 140px;
@@ -185,6 +198,19 @@
   .about-me-images-container {
     margin-top: 355px;
     margin-bottom: 37px;
+  }
+
+  .about-me-bg {
+    position: absolute;
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg2.png) 1x,
+      url(../img/background/decor-bg2-2x.png) 2x
+    );
+    top: 536px;
+    right: 25px;
+    width: 400px;
+    height: 288px;
+    background-repeat: no-repeat;
   }
   .about-me-container {
     display: flex;
