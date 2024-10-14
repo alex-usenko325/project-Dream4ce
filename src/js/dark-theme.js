@@ -7,12 +7,9 @@ function toggleTheme() {
   localStorage.setItem('theme', isDarkTheme ? 'dark' : 'light');
 }
 
-themeToggleButton.addEventListener('click', toggleTheme);
-
 document.addEventListener('DOMContentLoaded', () => {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme === 'dark') {
     document.body.classList.add('dark-theme');
   }
-
 });
