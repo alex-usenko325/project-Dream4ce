@@ -29,12 +29,8 @@
 
 .benefits-list-item-icon {
   border-radius: 8px;
-  width: 24px;
-  height: 24px;
-  stroke: #00b068;
-  fill: none;
+  fill: #00b068;
   background: #bcdfd1;
-  padding: 12px;
 }
 
 .benefits-list-item-title {
@@ -79,7 +75,6 @@
 
   .benefits-list {
     max-width: 1280px;
-
   }
 
   .bung:first-of-type {
