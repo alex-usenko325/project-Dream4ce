@@ -11,8 +11,15 @@
 .ighlight {
   color: #14c57c;
 }
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
 .project-item:not(:last-child) {
-  margin-bottom: 40px;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.7s ease-out, transform 0.7s ease-out;
@@ -123,8 +130,8 @@
     margin-bottom: 20px;
   }
 
-  .project-item:not(:last-child) {
-    margin-bottom: 60px;
+  .project-list {
+    gap: 60px;
   }
 
   .project-name {
@@ -155,8 +162,8 @@
   .project-image {
     height: 578px;
   }
-  .project-item:not(:last-child) {
-    margin-bottom: 80px;
+  .project-list {
+    gap: 80px;
   }
   .project-image {
     display: block;
