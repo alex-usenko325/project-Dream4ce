@@ -15,16 +15,19 @@ const errorMsg = document.querySelector(".error-input-msg")
 
 close.addEventListener("click", () => {
     workBackdrop.classList.add("visually-hidden");
+    document.body.style.overflow = 'auto';
 })
 
 window.addEventListener("keydown", (event) => {
     if (event.key === 'Escape') {
         workBackdrop.classList.add("visually-hidden");
+        document.body.style.overflow = 'auto';
     }
 })
 
 workBackdrop.addEventListener("click", (event) => {
-     workBackdrop.classList.add("visually-hidden");
+    workBackdrop.classList.add("visually-hidden");
+    document.body.style.overflow = 'auto';
 })
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -90,17 +93,19 @@ form.addEventListener("submit", async (event) => {
 
         try {
             const response =  await axios.post('https://portfolio-js.b.goit.study/api/requests', formObj)
-                loader.classList.remove("visually-hidden");
-                workBackdrop.classList.remove("visually-hidden");
-                const modalTitle = document.querySelector(".work-modal-title");
-                const modalText = document.querySelector(".work-modal-text");
-                modalTitle.textContent = response.data.title;
-                modalText.textContent = response.data.message;
+            loader.classList.remove("visually-hidden");
+            workBackdrop.classList.remove("visually-hidden");
+            document.body.style.overflow = 'hidden';
+            const modalTitle = document.querySelector(".work-modal-title");
+            const modalText = document.querySelector(".work-modal-text");
+            
+            modalTitle.textContent = response.data.title;
+            modalText.textContent = response.data.message;
 
-                errorInput.style.display = "none";
-                successIcon.style.display = "none";
-                form.reset();
-                loader.classList.add("visually-hidden");
+            errorInput.style.display = "none";
+            successIcon.style.display = "none";
+            form.reset();
+            loader.classList.add("visually-hidden");
         }
 
         catch (error) {

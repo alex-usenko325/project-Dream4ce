@@ -25,9 +25,9 @@
   position: relative;
   display: flex;
   align-items: center;
-  margin-right: 10px;
+  margin-left: -18px;
   /* margin-bottom: 40px; */
-  width: 165px;
+  width: 130px;
   height: 92px;
 }
 
@@ -96,6 +96,13 @@
 .img-hero-people {
   display: none;
 }
+
+@media screen and (min-width: 360px) {
+  .hero-button-link {
+    width: 165px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .li-fone {
     margin: 0 auto;

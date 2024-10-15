@@ -75,6 +75,37 @@
   text-align: center;
 }
 
+.scroll-up-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color: var(--light-grey);
+  z-index: 1000;
+  align-items: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-icon {
+  stroke: var(--text);
+  fill: none;
+  transform: rotate(180deg);
+  width: 32px;
+  height: 32px;
+}
+
+.is-active-scroll {
+  visibility: visible;
+  opacity: 1;
+}
+
 /**-------------------768--------------------*/
 
 @media screen and (min-width: 768px) {
