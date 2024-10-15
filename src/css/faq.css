@@ -41,6 +41,7 @@
 .faq-content-item:has(.faq-is-active) {
   border-radius: 16px;
   background-color: var(--light-accent);
+  padding: 28px 24px;
 }
 .ac-faq-title {
   width: 100%;
