@@ -36,14 +36,16 @@
   justify-content: center;
   flex-direction: column;
   border-bottom: 1px solid #e4e5e6;
-  padding: 28px 24px;
+  padding: 28px 24px 4px;
 }
 .faq-content-item:has(.faq-is-active) {
   border-radius: 16px;
   background-color: var(--light-accent);
+  padding: 28px 24px;
 }
 .ac-faq-title {
   width: 100%;
+  margin-bottom: 24px;
 }
 .faq-acordeon-wrap {
   display: flex;
@@ -70,10 +72,6 @@
 .faq-item-icon {
   stroke: var(--text);
   fill: none;
-}
-
-.faq-content-item-description {
-  margin-top: 24px;
 }
 
 .hidden {
