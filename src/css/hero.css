@@ -240,6 +240,7 @@
 
   .text-hero {
     padding-left: 136px;
+    
   }
 
   .hero-button {
@@ -296,5 +297,11 @@
   .img-hero-people {
     display: block;
     display: inline-block;
+  }
+    .text-hero-container {
+    margin-top: 44px;
+  }
+    .text-hero-container {
+    margin: 0;
   }
 }
