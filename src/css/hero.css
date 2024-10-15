@@ -5,7 +5,7 @@
   line-height: 1.25;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 112px;
+  /* padding-top: 112px; */
 }
 .title-names-two {
   font-family: Impact, sans-serif;
@@ -15,7 +15,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-green);
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .hero-button-link {
@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   margin-right: 10px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   width: 165px;
   height: 92px;
 }
@@ -57,7 +57,7 @@
   font-size: 18px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .back-color {
@@ -96,32 +96,64 @@
 .img-hero-people {
   display: none;
 }
-
-.hero-bg-wrapper {
-  background-image: -webkit-image-set(
-    url(../img/background/decor-bg8.png) 1x,
-    url(../img/background/decor-bg8-2x.png) 2x
-  );
-  background-repeat: no-repeat, no-repeat;
-  background-position: top, right top 362px;
-}
-
 @media screen and (max-width: 767px) {
   .li-fone {
     margin: 0 auto;
   }
+  .hero-section {
+    padding-top: 105px;
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg1.png) 1x,
+      url(../img/background/decor-bg1-2x.png) 2x
+    );
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right;
+  }
+  .hero-container {
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg2.png) 1x,
+      url(../img/background/decor-bg2-2x.png) 2x
+    );
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right;
+    background-size: 180px 140px;
+  }
+  .hero-column {
+    margin-top: 45px;
+    margin-bottom: 75px;
+  }
+  .text-hero-container {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .hero-bg-wrapper {
+  .hero-section {
+    padding-top: 100px;
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg1.png) 1x,
+      url(../img/background/decor-bg1-2x.png) 2x
+    );
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right;
+    background-size: 1000px 700px;
+  }
+  .hero-column {
+    margin-top: 70px;
+    margin-bottom: 75px;
+  }
+  .text-hero-container {
+    margin-top: 44px;
+  }
+  /* .hero-bg-wrapper {
     background-image: url(../img/background/decor-bg5.png),
       url(../img/background/decor-bg5-2x.png);
     background-repeat: no-repeat, no-repeat;
     background-position: top right, right 224px bottom 178px;
-  }
+  } */
 
   .title-names-one {
-    padding-top: 88px;
+    /* padding-top: 88px; */
     font-size: 136px;
     line-height: 1.15;
     letter-spacing: 0.01em;
@@ -134,19 +166,19 @@
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #00b068;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
 
   .hero-button-link {
     transform: translateX(65%);
     width: 261px;
     height: 96px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
 
   .text-hero {
     font-size: 20px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     max-width: 704px;
     max-height: 96px;
   }
@@ -179,30 +211,28 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero-bg-wrapper {
-    background-image: url(../img/background/decor-bg1.png),
-      url(../img/background/decor-bg1-2x.png);
+  .hero-section {
+    padding-top: 200px;
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg1.png) 1x,
+      url(../img/background/decor-bg1-2x.png) 2x
+    );
     background-repeat: no-repeat, no-repeat;
-    background-position: top right, top 468px left 204px;
+    background-position: top right;
+    background-size: 1500px 900px;
   }
 
   .title-names-one {
     margin-right: 40px;
-    padding-top: 184px;
     display: inline-block;
   }
 
-  .title-names-two {
-    margin-bottom: 80px;
-  }
   .hero-button-link {
     transform: translateX(100%);
-    margin-bottom: 132px;
   }
 
   .text-hero {
     padding-left: 136px;
-    margin-bottom: 132px;
   }
 
   .hero-button {
@@ -253,6 +283,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 130px;
+    margin-top: 95px;
   }
   .img-hero-people {
     display: block;
