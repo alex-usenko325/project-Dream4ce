@@ -47,6 +47,10 @@
   font-size: 16px;
 }
 
+.benefits-bg {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .benefits-title {
     font-size: 108px;
@@ -77,6 +81,8 @@
 
   .benefits-list {
     max-width: 1280px;
+    position: relative;
+    top: -100px;
   }
 
   .bung:first-of-type {
@@ -90,5 +96,18 @@
   }
   .benefits-list-item {
     width: 384px;
+  }
+  .benefits-bg {
+    display: block;
+    position: absolute;
+    background-image: -webkit-image-set(
+      url(../img/background/decor-bg3.png) 1x,
+      url(../img/background/decor-bg3-2x.png) 2x
+    );
+    top: -505px;
+    right: 20px;
+    width: 550px;
+    height: 420px;
+    background-repeat: no-repeat;
   }
 }
