@@ -112,6 +112,14 @@
     height: 70px;
     margin-left: -60px;
   }
+
+  .title-names-one {
+    font-size: 52px;
+  }
+
+  .title-names-two {
+    font-size: 52px;
+  }
 }
 
 @media screen and (max-width: 767px) {
