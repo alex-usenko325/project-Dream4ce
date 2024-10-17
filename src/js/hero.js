@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sr = ScrollReveal({
     origin: 'bottom',
     distance: '50px',
-    duration: 2300,
+    duration: 1400,
     delay: 0,
     reset: true,
   });

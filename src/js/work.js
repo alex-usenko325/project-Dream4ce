@@ -34,11 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const sr = ScrollReveal({
     origin: 'bottom',
     distance: '50px',
-    duration: 2300,
+    duration: 2000,
     delay: 0,
     reset: false,
   });
-  const elementsToReveal = ['.work-title', '.work-text', '.work-list', '.work-bg', '.work-right'];
+  const elementsToReveal = ['.work-text', '.work-list', '.work-bg', '.work-right'];
   elementsToReveal.forEach((element, index) => sr.reveal(element, { delay: 200 + index * 100 }));
 });
 
