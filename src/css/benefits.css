@@ -75,6 +75,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .benefits-container {
+    max-height: 678px;
+  }
   .benefits-title {
     width: 690px;
   }
