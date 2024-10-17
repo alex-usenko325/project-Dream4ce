@@ -1,6 +1,6 @@
 .footer {
   border-top: 1px solid #e4e5e6;
-  padding-top: 40px;
+  padding: 40px 20px;
 }
 
 .footer-font {
@@ -29,7 +29,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0px 20px 40px 20px;
   max-width: 360px;
   height: 384px;
 }
