@@ -2,12 +2,15 @@ const menuOpenBtn = document.getElementById('menu-open-btn');
 const menuCloseBtn = document.querySelector('[data-menu-button-close]');
 const mobileMenu = document.querySelector('.mob-menu');
 
+
 function openMenu() {
   mobileMenu.classList.add('is-open');
+  document.body.style.overflow = "hidden";
 }
 
 function closeMenu() {
   mobileMenu.classList.remove('is-open');
+  document.body.style.overflow = "auto";
 }
 
 menuOpenBtn.addEventListener('click', openMenu);
