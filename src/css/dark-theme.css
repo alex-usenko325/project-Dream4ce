@@ -107,9 +107,9 @@ body.dark-theme .title-names-two {
   color: #14c57c;
 }
 
-body.dark-theme .hero-button-link {
+/* body.dark-theme .hero-button-link {
   background-color: #204136;
-}
+} */
 
 body.dark-theme .hero-button-link:hover,
 body.dark-theme .hero-button-link:focus {

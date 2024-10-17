@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     distance: '50px',
     duration: 2300,
     delay: 0,
-    reset: true,
+    reset: false,
   });
   const elementsToReveal = ['.work-title', '.work-text', '.work-list', '.work-bg', '.work-right'];
   elementsToReveal.forEach((element, index) => sr.reveal(element, { delay: 200 + index * 100 }));
