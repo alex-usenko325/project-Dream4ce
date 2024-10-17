@@ -119,8 +119,8 @@
   .about-me-bg {
     position: absolute;
     background-image: -webkit-image-set(
-      url(../img/background/decor-bg6.png) 1x,
-      url(../img/background/decor-bg6-2x.png) 2x
+      url(../img/background/decor-bg6.avif) 1x,
+      url(../img/background/decor-bg6-2x.avif) 2x
     );
     top: 656px;
     right: 15px;
@@ -210,8 +210,8 @@
   .about-me-bg {
     position: absolute;
     background-image: -webkit-image-set(
-      url(../img/background/decor-bg2.png) 1x,
-      url(../img/background/decor-bg2-2x.png) 2x
+      url(../img/background/decor-bg2.avif) 1x,
+      url(../img/background/decor-bg2-2x.avif) 2x
     );
     top: 536px;
     right: 25px;
