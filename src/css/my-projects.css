@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+  margin-bottom: 40px;
 }
 
 .project-item {
@@ -78,7 +79,6 @@
 }
 
 .load-more {
-  margin-top: 40px;
   font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
@@ -128,6 +128,7 @@
 
   .project-list {
     gap: 60px;
+    margin-bottom: 60px;
   }
 
   .project-name {
@@ -138,7 +139,6 @@
     letter-spacing: 0.01em;
   }
   .project-name-btn {
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
   }
@@ -160,6 +160,7 @@
   }
   .project-list {
     gap: 80px;
+    margin-bottom: 80px;
   }
   .project-image {
     display: block;
