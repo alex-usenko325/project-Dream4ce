@@ -129,16 +129,16 @@
   .hero-section {
     padding-top: 105px;
     background-image: -webkit-image-set(
-      url(../img/background/decor-bg1.png) 1x,
-      url(../img/background/decor-bg1-2x.png) 2x
+      url(../img/background/decor-bg1.avif) 1x,
+      url(../img/background/decor-bg1-2x.avif) 2x
     );
     background-repeat: no-repeat, no-repeat;
     background-position: top right;
   }
   .hero-container {
     background-image: -webkit-image-set(
-      url(../img/background/decor-bg2.png) 1x,
-      url(../img/background/decor-bg2-2x.png) 2x
+      url(../img/background/decor-bg2.avif) 1x,
+      url(../img/background/decor-bg2-2x.avif) 2x
     );
     background-repeat: no-repeat, no-repeat;
     background-position: bottom right;
@@ -154,8 +154,8 @@
   .hero-section {
     padding-top: 100px;
     background-image: -webkit-image-set(
-      url(../img/background/decor-bg1.png) 1x,
-      url(../img/background/decor-bg1-2x.png) 2x
+      url(../img/background/decor-bg1.avif) 1x,
+      url(../img/background/decor-bg1-2x.avif) 2x
     );
     background-repeat: no-repeat, no-repeat;
     background-position: top right;
@@ -167,12 +167,7 @@
   .text-hero-container {
     margin-top: 44px;
   }
-  /* .hero-bg-wrapper {
-    background-image: url(../img/background/decor-bg5.png),
-      url(../img/background/decor-bg5-2x.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top right, right 224px bottom 178px;
-  } */
+
 
   .title-names-one {
     /* padding-top: 88px; */
@@ -230,8 +225,8 @@
   .hero-section {
     padding-top: 200px;
     background-image: -webkit-image-set(
-      url(../img/background/decor-bg1.png) 1x,
-      url(../img/background/decor-bg1-2x.png) 2x
+      url(../img/background/decor-bg1.avif) 1x,
+      url(../img/background/decor-bg1-2x.avif) 2x
     );
     background-repeat: no-repeat, no-repeat;
     background-position: top right;
