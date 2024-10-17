@@ -157,3 +157,35 @@
     padding-top: 0px;
   }
 }
+
+.scroll-btn {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  bottom: 3%;
+  right: 3%;
+  border: none;
+  border-radius: 50%;
+  z-index: 2000;
+  background-color: var(--light-grey);
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.scroll-btn-icon {
+  width: 30px;
+  height: 30px;
+  fill: none;
+  stroke: var(--text);
+  transform: rotate(180deg);
+}
+
+.is-active-scroll {
+  visibility: visible;
+  opacity: 1;
+}

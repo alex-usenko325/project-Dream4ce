@@ -26,28 +26,23 @@
 .about-me-education-list-item,
 .about-me-role-list-item {
   position: relative;
-  padding-left: 25px;
-  margin-bottom: 16px;
+  padding-left: 32px;
+  margin-bottom: 12px;
 }
 
 .about-me-education-list-item::before,
 .about-me-role-list-item::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: 10px;
+  top: 10px;
+  display: block;
   width: 4px;
   height: 4px;
   background-color: #00b068;
   border-radius: 1px;
 }
 
-.about-me-education-list-item::before {
-  top: 13%;
-}
-
-.about-me-role-list-item::before {
-  top: 50%;
-}
 /* ============================MOBILE STYLES========================================= */
 @media screen and (max-width: 767px) {
   .about-me-title {
@@ -142,37 +137,13 @@
 
   .about-me-education-list-item {
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
     margin-bottom: 16px;
   }
   .about-me-role-list-item {
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
     margin-bottom: 16px;
-  }
-  .about-me-education-list-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 13%;
-    transform: translateY(-50%);
-
-    width: 4px;
-    height: 4px;
-    background-color: #00b068;
-    border-radius: 1px;
-  }
-
-  .about-me-role-list-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 4px;
-    height: 4px;
-    background-color: #00b068;
-    border-radius: 1px;
   }
 
   .about-me-subtitle {
