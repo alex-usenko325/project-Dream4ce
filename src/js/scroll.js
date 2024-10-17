@@ -1,5 +1,5 @@
 'use strict';
-const scrollBtn = document.querySelector('.scroll-up-btn');
+export const scrollBtn = document.querySelector('.scroll-btn');
 let lastScrollTop = 0;
 let isScrollingUp = true;
 

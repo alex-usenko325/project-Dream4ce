@@ -2,6 +2,7 @@ import ScrollReveal from "scrollreveal";
 import axios from "axios";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import { scrollBtn } from "./scroll.js";
 
 const workBackdrop = document.querySelector(".work-backdrop");
 const close = document.querySelector(".work-modal-close")
@@ -95,6 +96,7 @@ form.addEventListener("submit", async (event) => {
             const response =  await axios.post('https://portfolio-js.b.goit.study/api/requests', formObj)
             loader.classList.remove("visually-hidden");
             workBackdrop.classList.remove("visually-hidden");
+            scrollBtn.classList.remove("is-active-scroll");
             document.body.style.overflow = 'hidden';
             const modalTitle = document.querySelector(".work-modal-title");
             const modalText = document.querySelector(".work-modal-text");
