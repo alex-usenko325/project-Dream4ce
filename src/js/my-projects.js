@@ -115,7 +115,6 @@ const projects = [
 
 let currentIndex = 0;
 const projectsPerPage = 3;
-let observer;
 
 function loadProjects() {
   const projectListEl = document.querySelector('.project-list');
@@ -126,10 +125,8 @@ function loadProjects() {
 
   const projectsItems = projectsToLoad
     .map(({ image, image2x, alt, techStack, title, link, svg }, index) => {
-      const directionClass =
-        (currentIndex + index) % 2 === 0 ? 'left' : 'right';
       return `
-            <li class="project-item ${directionClass}">
+            <li class="project-item">
                 <img  srcset="${image} 1x, ${image2x} 2x" src="${image}"  alt="${alt}" class="project-image">
                 <div class="project-content">
                     <p class="project-tech">${techStack}</p>
@@ -152,14 +149,13 @@ function loadProjects() {
 
   projectListEl.innerHTML += projectsItems;
 
-  const newProjectItems = document.querySelectorAll(
-    '.project-item:not(.observed)'
-  );
-  newProjectItems.forEach(item => {
-    observer.observe(item);
-    item.classList.add('observed');
+  const newlyAddedItems = document.querySelectorAll('.project-item:not(.show)');
+  newlyAddedItems.forEach((item, i) => {
+    setTimeout(() => {
+      item.classList.add('show');
+    }, i * 200);  
   });
-
+  
   currentIndex += projectsPerPage;
 
   if (currentIndex >= projects.length) {
@@ -168,13 +164,4 @@ function loadProjects() {
 }
 
 document.querySelector('.load-more').addEventListener('click', loadProjects);
-
-observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-      observer.unobserve(entry.target);
-    }
-  });
-});
 loadProjects();
